@@ -1,4 +1,26 @@
-{
-    "recommandation 1" : "Lire la doc",
-    "recommandation 2" : "Oik"
-}
+[
+    {
+        "header" : "recommandation 1",
+        "body" : "Lire la doc",
+        "timeout_seconds" : 1
+    } ,
+
+    {
+        "header" : "recommandation 2",
+        "body" : "Write",
+        "timeout_seconds" : 2
+    } ,
+
+    {
+        "header" : "recommandation 3",
+        "body" : "Oik",
+        "timeout_seconds" : 3
+    } ,
+
+    {
+        "header" : "n 4",
+        "body" : "brave",
+        "timeout_seconds" : 0
+    } 
+    
+]

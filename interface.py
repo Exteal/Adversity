@@ -1,9 +1,10 @@
 import sys
-from PyQt5.QtWidgets import *
-from PyQt5.QtCore import *
-from PyQt5.QtWebEngineWidgets import *
-from PyQt5.QtGui import *
+from PyQt6.QtWidgets import *
+from PyQt6.QtCore import *
+from PyQt6.QtWebEngineWidgets import *
+from PyQt6.QtGui import *
 
+from recommand_lib import recommand
 
 class Interface(QMainWindow):
     def __init__(self):
@@ -53,10 +54,16 @@ class Interface(QMainWindow):
         # Créer un layout horizontal pour le côté droit de l'interface
         right_layout = QVBoxLayout()
 
-        # Créer un widget QListWidget pour le fil de recommandations
-        recommendations_list = QListWidget(self)
-        recommendations_list.addItems(["Recommandation 1", "Recommandation 2", "Recommandation 3"])
-        right_layout.addWidget(recommendations_list)
+        # Créer un layout pour le fil de recommandations
+        recommendations_list = QVBoxLayout()
+
+        for item in recommand():
+            recommendations_list.addWidget(item)
+
+        right_layout.addLayout(recommendations_list)
+
+        #recommendations_list.addItems(["Recommandation 1", "Recommandation 2", "Recommandation 3"])
+        #right_layout.addWidget(recommendations_list)
 
         # Créer un widget QWebView pour l'accès au web
         left_layout = QVBoxLayout()
