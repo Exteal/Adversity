@@ -56,15 +56,18 @@ class Interface(QMainWindow):
 
         # Créer un layout pour le fil de recommandations
         recommendations_list = QVBoxLayout()
-
+    
         for item in recommand():
             recommendations_list.addWidget(item)
 
-        right_layout.addLayout(recommendations_list)
-
-        #recommendations_list.addItems(["Recommandation 1", "Recommandation 2", "Recommandation 3"])
-        #right_layout.addWidget(recommendations_list)
-
+        spacing = QVBoxLayout()
+        spacing.addSpacerItem(QSpacerItem(10, 10, QSizePolicy.Policy.MinimumExpanding, QSizePolicy.Policy.MinimumExpanding))
+        
+        #recommendations_list.addSpacerItem(QSpacerItem(50, 50, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Minimum))
+        
+        right_layout.addLayout(recommendations_list, 1)
+        right_layout.addLayout(spacing, 1)
+        
         # Créer un widget QWebView pour l'accès au web
         left_layout = QVBoxLayout()
         # text pour le titre

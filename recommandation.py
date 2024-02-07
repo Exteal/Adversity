@@ -69,7 +69,7 @@ class RecommandationWidget(QWidget):
 
 
         painter.fillRect(QRect(0,0, width, height), QColor("red"))
-        painter.drawText(QPoint(width/2, height/2), self.content)
+        painter.drawText(QPoint(int(width/3), int(height/2)), self.content)
         
         #painter.drawLine(0,0, width, 0)
         #painter.drawLine(0,height, width, height)
