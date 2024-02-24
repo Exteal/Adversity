@@ -1,0 +1,180 @@
+[
+    {
+        "commande" : "tar",
+        "description" : "Compresser ou décompresser un fichier",
+        "option" : 
+        {
+            "-cf" : {
+                "description" : "Créer une archive",
+                "exemple" : "tar -cf archive.tar fichier1 fichier2"
+            },
+            "-xf" : {
+                "description" : "Extraire une archive",
+                "exemple" : "tar -xf archive.tar"
+            },
+            "-zcf" : {
+                "description" : "Créer une archive compressée",
+                "exemple" : "tar -zcf archive.tar.gz fichier1 fichier2"
+            },
+            "-zxf" : {
+                "description" : "Extraire une archive compressée",
+                "exemple" : "tar -zxf archive.tar.gz"
+            },
+            "-tf" : {
+                "description" : "Lister le contenu d'une archive",
+                "exemple" : "tar -tf archive.tar"
+            }
+        }
+    },
+    {
+        "commande" : "grep",
+        "description" : "Rechercher une chaîne de caractères dans un fichier",
+        "option" : 
+        {
+            "-e" : {
+                "description" : "Rechercher une expression régulière",
+                "exemple" : "grep -e 'mot' fichier"
+            },
+            "-E" : {
+                "description" : "Rechercher une expression régulière étendue",
+                "exemple" : "grep -E 'mot1|mot2' fichier"
+            },
+
+            "-i" : {
+                "description" : "Ignorer la casse",
+                "exemple" : "grep -i 'mot' fichier"
+            },
+            "-v" : {
+                "description" : "Inverser la recherche",
+                "exemple" : "grep -v 'mot' fichier"
+            },
+            "-n" : {
+                "description" : "Afficher le numéro de ligne",
+                "exemple" : "grep -n 'mot' fichier"
+            },
+            "-r" : {
+                "description" : "Rechercher récursivement dans un répertoire",
+                "exemple" : "grep -r 'mot' repertoire"
+            }
+        }
+    },
+    {
+        "commande" : "find",
+        "description" : "Rechercher des fichiers",
+        "option" : {
+            "-name" : {
+                "description" : "Rechercher par nom",
+                "exemple" : "find . -name 'fichier*'"
+            },
+            "-type" : {
+                "description" : "Rechercher par type",
+                "exemple" : "find . -type f"
+            },
+            "-size" : {
+                "description" : "Rechercher par taille",
+                "exemple" : "find . -size +1M"
+            },
+            "-exec" : {
+                "description" : "Exécuter une commande sur les fichiers trouvés",
+                "exemple" : "find . -name 'fichier*' -exec rm {} \\;"
+            }
+        }
+    },
+    {
+        "commande" : "cp",
+        "description" : "Copier des fichiers",
+        "option" : {
+            "-r" : {
+                "description" : "Copier récursivement",
+                "exemple" : "cp -r repertoire1 repertoire2"
+            },
+            "-i" : {
+                "description" : "Demander confirmation avant d'écraser un fichier",
+                "exemple" : "cp -i fichier1 fichier2"
+            },
+            "-u" : {
+                "description" : "Copier uniquement si le fichier de destination est plus récent",
+                "exemple" : "cp -u fichier1 fichier2"
+            },
+            "-v" : {
+                "description" : "Afficher les fichiers copiés",
+                "exemple" : "cp -v fichier1 fichier2"
+            },
+            "-n" : {
+                "description" : "Ne pas écraser un fichier existant",
+                "exemple" : "cp -n fichier1 fichier2"
+            },
+            "-vrn" : {
+                "description" : "Copier récursivement sans écraser les fichiers existants",
+                "exemple" : "cp -vrn repertoire1 repertoire2"
+            }
+        }   
+    },
+
+    {
+        "commande" : "mv",
+        "description" : "Déplacer ou renommer des fichiers",
+        "option" : {
+            "-i" : {
+                "description" : "Demander confirmation avant d'écraser un fichier",
+                "exemple" : "mv -i fichier1 fichier2"
+            },
+            "-u" : {
+                "description" : "Déplacer uniquement si le fichier de destination est plus récent",
+                "exemple" : "mv -u fichier1 fichier2"
+            },
+            "-v" : {
+                "description" : "Afficher les fichiers déplacés",
+                "exemple" : "mv -v fichier1 fichier2"
+            },
+            "-n" : {
+                "description" : "Ne pas écraser un fichier existant",
+                "exemple" : "mv -n fichier1 fichier2"
+            }
+        }
+    },
+    {
+        "commande" : "rm",
+        "description" : "Supprimer des fichiers",
+        "option" : {
+            "-r" : {
+                "description" : "Supprimer récursivement",
+                "exemple" : "rm -r repertoire"
+            },
+            "-i" : {
+                "description" : "Demander confirmation avant de supprimer un fichier",
+                "exemple" : "rm -i fichier"
+            },
+            "-v" : {
+                "description" : "Afficher les fichiers supprimés",
+                "exemple" : "rm -v fichier"
+            },
+            "-f" : {
+                "description" : "Forcer la suppression",
+                "exemple" : "rm -f fichier"
+            }
+        }
+    },
+    {
+        "commande" : "chmod",
+        "description" : "Modifier les permissions d'un fichier",
+        "option" : {
+            "u" : {
+                "description" : "Modifier les permissions de l'utilisateur",
+                "exemple" : "chmod u+x fichier"
+            },
+            "g" : {
+                "description" : "Modifier les permissions du groupe",
+                "exemple" : "chmod g+r fichier"
+            },
+            "o" : {
+                "description" : "Modifier les permissions des autres",
+                "exemple" : "chmod o-w fichier"
+            },
+            "a" : {
+                "description" : "Modifier les permissions de tous les utilisateurs",
+                "exemple" : "chmod a+rw fichier"
+            }
+        }
+    }
+]
