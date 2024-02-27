@@ -6,36 +6,60 @@ from PyQt6.QtGui import *
 from PyQt6.QtCore import Qt
 
 class Recommandation():
-    def __init__(self, header, body):
+    def __init__(self, header, body, timeout):
         self.header = header
         self.body = body
+        self.timeout = timeout
+    def __repr__(self) -> str:
+        return str(self.header) + " : " + str(self.body)
+
+
 
 
 class RecommandationWidget(QWidget):
-    def __init__(self, header, body, timeout):
+    def __init__(self, recommandation_list):
+    #def __init__(self, header, body, timeout):
         QWidget.__init__(self)
-        self.recommandation = Recommandation(header, body)
+        self.recommandation_list = recommandation_list
+        #self.recommandation = Recommandation(header, body)
+        self.recommandation = self.recommandation_list.pop(0)
         self.revealed = False
         self.content = self.recommandation.header
-        self.timeout = timeout
         self.timer = None
 
 
     def mousePressEvent(self, event):
-        if self.timer == None:
-            self.timer = QTimer(self)
-            self.timer.setSingleShot(True)
-            self.timer.timeout.connect(self.reveal)
-            self.timer.start(self.timeout)
+        if self.revealed:
+           self.processNextRecommandation()
+        
+        else :
+            if self.timer == None:
+                self.timer = QTimer(self)
+                self.timer.setSingleShot(True)
+                self.timer.timeout.connect(self.reveal)
+                self.timer.start(self.recommandation.timeout)
+            
 
        
+    def processNextRecommandation(self) :
+        if not self.recommandation_list:
+            self.deleteWidget()
+            return
+        self.recommandation = self.recommandation_list.pop(0)
+        self.content = self.recommandation.header
+        self.timer = None
+        self.revealed = False
+        self.update()
+
+    ### TODO
+    def deleteWidget(self):
+        print("del")
+        self.deleteLater()
     
+
     def reveal(self):
-        if self.revealed:
-            self.content = self.recommandation.header
-        else:  
-            self.content = self.recommandation.body
-        self.revealed = not(self.revealed)
+        self.content = self.recommandation.body
+        self.revealed = True
         self.timer = None
         self.update()
     
