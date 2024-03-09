@@ -3,7 +3,7 @@ from PyQt6.QtWidgets import *
 from PyQt6.QtCore import *
 from PyQt6.QtWebEngineWidgets import *
 from PyQt6.QtGui import *
-
+from menu import Menu
 from recommand_lib import recommand
 
 class Interface(QMainWindow):
@@ -23,11 +23,11 @@ class Interface(QMainWindow):
         center_layout = QVBoxLayout()
 
         # Créer un widget QComboBox pour le menu déroulant
-        menu_combobox = QComboBox(self)
-        menu_combobox.addItem("tar")
-        menu_combobox.addItem("grep")
-        menu_combobox.addItem("cp")
-        center_layout.addWidget(menu_combobox)
+        #menu_combobox = QComboBox(self)
+        #menu_combobox.addItem("tar")
+        #menu_combobox.addItem("grep")
+        #menu_combobox.addItem("cp")
+        #center_layout.addWidget(menu_combobox)
         
         # Créer un widget QTextEdit pour l'instruction donnée
         instruction_text = QTextEdit(self)
@@ -105,14 +105,12 @@ class Interface(QMainWindow):
         self.showMaximized()
         
         
-        # Créer un menu avec une action de test
-        menu_bar = self.menuBar()
-        file_menu = menu_bar.addMenu('Commandes')
-
-        test_action = QAction('Test Action', self)
-        test_action.triggered.connect(self.test_action_triggered)
-        file_menu.addAction(test_action)
-
+         # Créer la barre de menu
+        self.menu = Menu(self)
+        
+    def print_to_terminal(self, text):
+        self.command_input.setText(text)
+        
     def test_action_triggered(self):
         print("Test action triggered!")
 
@@ -142,3 +140,4 @@ def main(args):
     
 if __name__ == '__main__':
     main(sys.argv)
+    
