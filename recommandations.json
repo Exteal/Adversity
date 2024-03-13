@@ -23,19 +23,5 @@
             "body" : "brave",
             "timeout_seconds" : 0
         }
-    ],
-
-    [
-      {
-        "header" : "recommandation 2.1",
-        "body" : "GG",
-        "timeout_seconds" : 1
-      },
-      
-      {
-        "header" : "recommandation 2.2",
-        "body" : "VV",
-        "timeout_seconds" : 1
-      }
-    ]  
+    ]
 ]
