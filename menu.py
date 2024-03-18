@@ -26,9 +26,10 @@ class Menu:
                 option_description = option_data['description']
                 option_exemple = option_data['exemple']
 
+                # Utiliser une fonction lambda pour capturer les valeurs correctes
+                action_triggered = lambda ex=option_exemple, cmd=command_name, opt=option: interface.command_selected(ex, cmd, opt)
                 # Ajouter l'action au sous-menu
-                command_menu.addAction(option_description, lambda exemple=option_exemple: interface.print_to_terminal(exemple))
-
+                command_menu.addAction(option_description, action_triggered)
 
             # Ajouter le sous-menu au menu principal
             commands_menu.addMenu(command_menu)

@@ -16,7 +16,15 @@ class Interface(QMainWindow):
     def __init__(self, log_file):
         super().__init__()
         self.log_file = log_file
+        writer = csv.DictWriter(log_file, fieldnames=["temps", "souris_x_y", "zone_click", "eye_x_y", "entree_clavier", "commande","recommandation"])
+        writer.writeheader()
+        self.text = ""
+        self.click_zone = "No click"
+        self.command_string = ""
         self.initUI()
+        self.timer = QTimer(self)
+        self.timer.timeout.connect(self.log_data)
+        self.timer.start(1000) # log chaque seconde
 
     def initUI(self):
 
@@ -119,6 +127,11 @@ class Interface(QMainWindow):
          # Créer la barre de menu
         self.menu = Menu(self)
         
+        # Commeencer le log
+        #event = QMouseEvent(QEvent.Type.MouseButtonPress, QPointF(0, 0), Qt.MouseButton.LeftButton, Qt.MouseButton.LeftButton, Qt.KeyboardModifier.ControlModifier)
+        #self.start_log()
+        #self.eye_tracking()
+        
     def print_to_terminal(self, text):
         self.command_input.setText(text)
         
@@ -142,46 +155,150 @@ class Interface(QMainWindow):
         # Effacer la sortie du terminal
         self.terminal_output.clear()
 
-
-    def mouseMoveEvent(self, event):
-        print("Mouse Pos: ", event.pos())
-        super().mouseMoveEvent(event)
+    def command_selected(self, exemple, command_name, option_name):
+        # Print et log la commande sélectionnée
+        self.print_to_terminal(exemple)
+        self.log_command(command_name, option_name)
         
-    def mousePressEvent(self, event):
-        text = str(str(event.pos().x()) + " " + str(event.pos().y()))
-        print("XXXXXXXXXXXXXXX")
+    def eye_tracking(self):
+        gaze = GazeTracking()
+        webcam = cv2.VideoCapture(0)
 
+        height = 400
+        width = 500
         
-        self.log_file.write(str(event.pos().x()))
-        self.log_file.write("-")
+        while True:
+            
+            image  = zeros((height,width,3), uint8)
+                # We get a new frame from the webcam
+            _, frame = webcam.read()
+
+            # We send this frame to GazeTracking to analyze it
+            gaze.refresh(frame)
+
+            frame = gaze.annotated_frame()
+            self.text = ""
+            
+            if gaze.is_top():
+                self.text += "top "
+            elif gaze.is_bottom():
+                self.text += "bottom "
+            #if gaze.is_blinking():
+            #    self.text = "Blinking"
+            if gaze.is_right():
+                self.text += "right"
+            elif gaze.is_left():
+                self.text += "left"
+            
+            
+              
+            #cv2.putText(image, self.text, (90, 60), cv2.FONT_HERSHEY_DUPLEX, 1.6, (147, 58, 31), 2)
+
+            left_pupil = gaze.pupil_left_coords()
+            right_pupil = gaze.pupil_right_coords()
+            #cv2.putText(image, "Left pupil:  " + str(left_pupil), (90, 130), cv2.FONT_HERSHEY_DUPLEX, 0.9, (147, 58, 31), 1)
+            #cv2.putText(image, "Right pupil: " + str(right_pupil), (90, 165), cv2.FONT_HERSHEY_DUPLEX, 0.9, (147, 58, 31), 1)
+            #if (gaze.horizontal_ratio() is not None):
+                #cv2.putText(image, "Direction : " + str(gaze.horizontal_ratio()), (90, 190), cv2.FONT_HERSHEY_DUPLEX, 0.9, (147, 58, 31), 1)
+            #cv2.imshow("Demo", image)
+            #if (gaze.vertical_ratio() is not None):
+                #cv2.putText(image, "Vertical : " + str(gaze.vertical_ratio()), (90, 215), cv2.FONT_HERSHEY_DUPLEX, 0.9, (147, 58, 31), 1)
+            #cv2.imshow("Demo", image)
+
+            #if cv2.waitKey(1) == 27:
+            #    break
         
-        self.log_file.write(str(event.pos().y()))
+        webcam.release()
+        
 
-        super().mousePressEvent(event)
-
-    def mouseReleaseEvent(self, event):
-        print("Mouse Released at: ", event.pos())
-        super().mouseReleaseEvent(event)
     
-       
+        
+
+    def mousePressEvent(self, event):
+        self.click_zone = self.get_click_zone_name(event)
+        self.log_data()
+    
+    def get_click_zone_name(self, event):
+        # utiliser les coordonnées du clic pour déterminer quel bouton a été cliqué
+        # et renvoyer le nom correspondant
+
+        button1_rect = QRect(100, 100, 50, 50)  # Rectangle représentant la zone du bouton 1
+        button2_rect = QRect(200, 100, 50, 50)  # Rectangle représentant la zone du bouton 2
+        mouse_pos = event.pos()
+
+        if button1_rect.contains(mouse_pos):
+            return "Button 1"
+        elif button2_rect.contains(mouse_pos):
+            return "Button 2"
+        else:
+            return "Unknown Zone"
+        
+    def keyPressEvent(self, event):
+        # Log the keyboard input
+        keyboard_input = event.text()
+        self.log_data()
+        
+    def log_command(self, command, option):
+        # Log the command and option
+        self.command_string = f"{command} {option}"
+        self.log_data()
+    
+    def log_data(self):
+        # Log the mouse position
+        mouse_pos = QCursor.pos()
+        x = mouse_pos.x()
+        y = mouse_pos.y()
+
+        # Log the time
+        time = QDateTime.currentDateTime().toString()
+        
+        # Log the click zone
+        #self.click_zone = "No click"
+
+        # Log the keyboard input
+        keyboard_input = self.command_input.text()
+
+        # Log the recommendation
+        recommendation = "No recommendation"
+        
+        # Log the eye position
+        eye = self.text
+        
+        writer = csv.DictWriter(self.log_file, fieldnames=["temps", "souris_x_y", "zone_click", "eye_x_y", "entree_clavier", "commande","recommandation"])
+        writer.writerow({
+            "temps": time,
+            "souris_x_y": f"({x}, {y})",
+            "zone_click": self.click_zone,
+            "eye_x_y": eye,
+            "entree_clavier": keyboard_input,
+            "commande": self.command_string,
+            "recommandation": recommendation
+        })
+        self.log_file.flush()
+        self.click_zone = "No click"
+        self.command_string = ""
+        
+        print(f"Mouse moved to ({x}, {y})")
+        print(f"Time: {time}")
+        print(f"Eye: {eye}")
+        print(f"Keyboard input: {keyboard_input}")
+        print(f"Recommendation: {recommendation}")
 
 def main(args):
-    with open('log.txt','a+') as log_file:
-       # it = csv.DictWriter(log_file, ["click"])
-       # it.writeheader()
-       # it.writerows()
-
+    with open('log.csv', 'w', newline='') as file:
+        log_file = file
         app = QApplication(args)
         interface = Interface(log_file)
         interface.show()
 
-        gaze = GazeTracking()
-        webcam = cv2.VideoCapture(0)
-        while True:
+        #gaze = GazeTracking()
+        #webcam = cv2.VideoCapture(0)
 
-            height = 400
-            width = 500
-
+        height = 400
+        width = 500
+        
+        while False:
+            
             image  = zeros((height,width,3), uint8)
                 # We get a new frame from the webcam
             _, frame = webcam.read()
@@ -198,9 +315,12 @@ def main(args):
                 text = "Looking right"
             elif gaze.is_left():
                 text = "Looking left"
-            elif gaze.is_center():
-                text = "Looking center"
-
+            
+            if gaze.is_top():
+                text += " top"
+            elif gaze.is_bottom():
+                text += " bottom"
+              
             cv2.putText(image, text, (90, 60), cv2.FONT_HERSHEY_DUPLEX, 1.6, (147, 58, 31), 2)
 
             left_pupil = gaze.pupil_left_coords()
@@ -209,12 +329,15 @@ def main(args):
             cv2.putText(image, "Right pupil: " + str(right_pupil), (90, 165), cv2.FONT_HERSHEY_DUPLEX, 0.9, (147, 58, 31), 1)
             if (gaze.horizontal_ratio() is not None):
                 cv2.putText(image, "Direction : " + str(gaze.horizontal_ratio()), (90, 190), cv2.FONT_HERSHEY_DUPLEX, 0.9, (147, 58, 31), 1)
+            #cv2.imshow("Demo", image)
+            if (gaze.vertical_ratio() is not None):
+                cv2.putText(image, "Vertical : " + str(gaze.vertical_ratio()), (90, 215), cv2.FONT_HERSHEY_DUPLEX, 0.9, (147, 58, 31), 1)
             cv2.imshow("Demo", image)
 
             if cv2.waitKey(1) == 27:
                 break
         
-        webcam.release()
+        #webcam.release()
         cv2.destroyAllWindows()
         sys.exit(app.exec())
     
