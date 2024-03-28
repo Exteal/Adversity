@@ -26,9 +26,15 @@ class RecommandationWidget(QWidget):
         self.revealed = False
         self.content = self.recommandation.header
         self.timer = None
+        self.color = QColor("red")
 
 
     def mousePressEvent(self, event):
+
+        interface = self.parent().parent()
+        interface.click_zone = "Recommandation : " + self.recommandation.header
+        interface.log_data()
+
         if self.revealed:
            self.processNextRecommandation()
         
@@ -39,8 +45,31 @@ class RecommandationWidget(QWidget):
                 self.timer.timeout.connect(self.reveal)
                 self.timer.start(self.recommandation.timeout)
             
+    def enterEvent(self, event):
+        self.color = QColor("blue")
+        self.update()
+
+        interface = self.parent().parent()
+        interface.recommendation_event = "Enter"
+        interface.log_data()
+        print("iiiii ", interface.recommendation_event)
+        interface.recommendation_event = "None"
+        #TODO ajouter log
 
        
+    def leaveEvent(self, event):
+        self.color = QColor("red")
+        self.update()
+
+        interface = self.parent().parent()
+        interface.recommendation_event = "Leave"
+        interface.log_data()
+        interface.recommendation_event = "None"
+
+        #TODO ajouter log
+    
+
+
     def processNextRecommandation(self) :
         if not self.recommandation_list:
             self.deleteWidget()
@@ -53,7 +82,6 @@ class RecommandationWidget(QWidget):
 
     ### TODO
     def deleteWidget(self):
-        print("del")
         self.deleteLater()
     
 
@@ -92,7 +120,7 @@ class RecommandationWidget(QWidget):
         painter.setBrush(brush)
 
 
-        painter.fillRect(QRect(0,0, width, height), QColor("red"))
+        painter.fillRect(QRect(0,0, width, height), self.color)
         painter.drawText(QPoint(int(width/3), int(height/2)), self.content)
         
         #painter.drawLine(0,0, width, 0)

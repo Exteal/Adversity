@@ -8,7 +8,7 @@ from menu import Menu
 from recommand_lib import recommand
 from numpy import zeros, uint8
 
-from GazeTracking.gaze_tracking import GazeTracking
+#from GazeTracking.gaze_tracking import GazeTracking
 import cv2
 
 
@@ -25,6 +25,7 @@ class Interface(QMainWindow):
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.log_data)
         self.timer.start(1000) # log chaque seconde
+        self.recommendation_event = "None"
 
     def initUI(self):
 
@@ -259,12 +260,12 @@ class Interface(QMainWindow):
         keyboard_input = self.command_input.text()
 
         # Log the recommendation
-        recommendation = "No recommendation"
+        #recommendation = "No recommendation"
         
         # Log the eye position
         eye = self.text
         
-        writer = csv.DictWriter(self.log_file, fieldnames=["temps", "souris_x_y", "zone_click", "eye_x_y", "entree_clavier", "commande","recommandation"])
+        writer = csv.DictWriter(self.log_file, fieldnames=["temps", "souris_x_y", "zone_click", "eye_x_y", "entree_clavier", "commande","recommendation_event"])
         writer.writerow({
             "temps": time,
             "souris_x_y": f"({x}, {y})",
@@ -272,7 +273,7 @@ class Interface(QMainWindow):
             "eye_x_y": eye,
             "entree_clavier": keyboard_input,
             "commande": self.command_string,
-            "recommandation": recommendation
+            "recommendation_event": self.recommendation_event
         })
         self.log_file.flush()
         self.click_zone = "No click"
@@ -282,7 +283,7 @@ class Interface(QMainWindow):
         print(f"Time: {time}")
         print(f"Eye: {eye}")
         print(f"Keyboard input: {keyboard_input}")
-        print(f"Recommendation: {recommendation}")
+        print(f"Recommendation: {self.recommendation_event}")
 
 def main(args):
     with open('log.csv', 'w', newline='') as file:
