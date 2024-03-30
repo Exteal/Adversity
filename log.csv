@@ -1,0 +1,10 @@
+temps,souris_x_y,zone_click,eye_x_y,entree_clavier,recommandation
+10:00:00,"(100, 200)",1,"(300, 400)",A,Recommandation 1
+10:00:01,"(101, 201)",2,"(301, 401)",B,Recommandation 2
+10:00:02,"(102, 202)",3,"(302, 402)",C,Recommandation 3
+10:00:03,"(103, 203)",4,"(303, 403)",D,Recommandation 4
+10:00:04,"(104, 204)",5,"(304, 404)",E,Recommandation 5
+10:00:05,"(105, 205)",6,"(305, 405)",F,Recommandation 6
+10:00:06,"(106, 206)",7,"(306, 406)",G,Recommandation 7
+10:00:07,"(107, 207)",8,"(307, 407)",H,Recommandation 8
+10:00:08,"(108, 208)",9,"(308, 408)",I,Recommandation 9

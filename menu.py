@@ -1,5 +1,5 @@
 import json
-from PyQt6.QtWidgets import QMenu
+from PyQt5.QtWidgets import QMenu
 
 class Menu:
     def __init__(self, interface):

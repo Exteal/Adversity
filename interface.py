@@ -1,10 +1,11 @@
 import sys
-from PyQt6.QtWidgets import *
-from PyQt6.QtCore import *
-from PyQt6.QtWebEngineWidgets import *
-from PyQt6.QtGui import *
+from PyQt5.QtWidgets import *
+from PyQt5.QtCore import *
+from PyQt5.QtWebEngineWidgets import *
+from PyQt5.QtGui import *
 from menu import Menu
 from recommand_lib import recommand
+from terminal import Terminal
 
 class Interface(QMainWindow):
     def __init__(self):
@@ -36,19 +37,22 @@ class Interface(QMainWindow):
         center_layout.addWidget(instruction_text)
 
         # Créer un widget QPlainTextEdit pour le terminal
-        self.terminal_output = QPlainTextEdit(self)
-        self.terminal_output.setReadOnly(True)
-        center_layout.addWidget(self.terminal_output)
+        #self.terminal_output = QPlainTextEdit(self)
+        #self.terminal_output.setReadOnly(True)
+        #center_layout.addWidget(self.terminal_output)
 
         # Créer un widget QLineEdit pour saisir les commandes du terminal
-        self.command_input = QLineEdit(self)
-        self.command_input.setPlaceholderText("Entrez une commande...")
-        self.command_input.returnPressed.connect(self.run_command)
-        center_layout.addWidget(self.command_input)
+        #self.command_input = QLineEdit(self)
+        #self.command_input.setPlaceholderText("Entrez une commande...")
+        #self.command_input.returnPressed.connect(self.run_command)
+        #center_layout.addWidget(self.command_input)
+        
+        self.term = Terminal()
+        center_layout.addWidget(self.term)
         
         # Créer un processus pour exécuter le terminal
-        self.process = QProcess(self)
-        self.process.readyReadStandardOutput.connect(self.update_output)
+        #self.process = QProcess(self)
+        #self.process.readyReadStandardOutput.connect(self.update_output)
         
         
         # Créer un layout horizontal pour le côté droit de l'interface
@@ -69,11 +73,11 @@ class Interface(QMainWindow):
         right_layout.addLayout(spacing, 1)
         
         # Créer un widget QWebView pour l'accès au web
-        left_layout = QVBoxLayout()
+        #left_layout = QVBoxLayout()
         # text pour le titre
-        title = QLabel("Recherche Web")
-        title.setAlignment(Qt.AlignmentFlag.AlignTop)
-        title.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        #title = QLabel("Recherche Web")
+        #title.setAlignment(Qt.AlignmentFlag.AlignTop)
+        #title.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
         
         # ajouter une case de recherche
         #search_bar = QLineEdit(self)
@@ -83,18 +87,18 @@ class Interface(QMainWindow):
         # ajouter les widgets au layout
         #left_layout.addWidget(search_bar)
 
-        web_view = QWebEngineView(self)
-        web_view.setUrl(QUrl("https://google.com"))
-        web_view.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+        #web_view = QWebEngineView(self)
+        #web_view.setUrl(QUrl("https://google.com"))
+        #web_view.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
 
-        left_layout.addWidget(title)
-        left_layout.addWidget(web_view)
+        #left_layout.addWidget(title)
+        #left_layout.addWidget(web_view)
 
         # Ajouter les layouts
     
-        main_layout.addLayout(left_layout, 33)
-        main_layout.addLayout(center_layout, 33)
-        main_layout.addLayout(right_layout, 33)
+        #main_layout.addLayout(left_layout, 33)
+        main_layout.addLayout(center_layout)
+        main_layout.addLayout(right_layout)
 
         # Créer le widget central avec le layout principal
         central_widget.setLayout(main_layout)
@@ -109,7 +113,7 @@ class Interface(QMainWindow):
         self.menu = Menu(self)
         
     def print_to_terminal(self, text):
-        self.command_input.setText(text)
+        self.term.cmdWindow.insertPlainText(text)
         
     def test_action_triggered(self):
         print("Test action triggered!")
