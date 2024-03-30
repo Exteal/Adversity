@@ -24,7 +24,7 @@ class Interface(QMainWindow):
         self.initUI()
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.log_data)
-        self.timer.start(1000) # log chaque seconde
+        self.timer.start(10) # log chaque seconde
 
     def initUI(self):
 

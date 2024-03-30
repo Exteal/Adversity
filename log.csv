@@ -1,15 +1,1730 @@
 temps,souris_x_y,zone_click,eye_x_y,entree_clavier,commande,recommandation
-Mon Mar 18 17:13:00 2024,"(165, 19)",No click,,,,No recommendation
-Mon Mar 18 17:13:01 2024,"(513, 64)",No click,,,,No recommendation
-Mon Mar 18 17:13:02 2024,"(555, 62)",No click,,grep -e 'mot' fichier,grep -e,No recommendation
-Mon Mar 18 17:13:02 2024,"(555, 62)",No click,,grep -e 'mot' fichier,,No recommendation
-Mon Mar 18 17:13:03 2024,"(136, 0)",No click,,grep -e 'mot' fichier,,No recommendation
-Mon Mar 18 17:13:04 2024,"(284, 160)",No click,,grep -e 'mot' fichier,,No recommendation
-Mon Mar 18 17:13:05 2024,"(505, 145)",No click,,rm -r repertoire,rm -r,No recommendation
-Mon Mar 18 17:13:05 2024,"(346, 128)",No click,,rm -r repertoire,,No recommendation
-Mon Mar 18 17:13:06 2024,"(163, 0)",No click,,rm -r repertoire,,No recommendation
-Mon Mar 18 17:13:07 2024,"(323, 139)",No click,,rm -r repertoire,,No recommendation
-Mon Mar 18 17:13:08 2024,"(550, 188)",No click,,rm -r repertoire,,No recommendation
-Mon Mar 18 17:13:09 2024,"(550, 189)",No click,,mv -n fichier1 fichier2,mv -n,No recommendation
-Mon Mar 18 17:13:09 2024,"(500, 177)",No click,,mv -n fichier1 fichier2,,No recommendation
-Mon Mar 18 17:13:10 2024,"(13, 41)",No click,,mv -n fichier1 fichier2,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:37 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(648, 684)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(648, 679)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(650, 675)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(653, 668)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(660, 651)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(668, 631)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(677, 602)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(677, 602)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(694, 533)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(706, 473)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(712, 437)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(717, 403)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(720, 392)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(726, 356)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(727, 344)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 340)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 334)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(729, 328)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(729, 323)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 317)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 315)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(728, 312)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(727, 309)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(722, 293)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(718, 282)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(712, 265)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(706, 251)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(692, 217)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(689, 209)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(684, 196)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(679, 184)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(678, 181)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(671, 169)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(669, 165)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(667, 162)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(666, 160)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(665, 158)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(665, 157)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(665, 157)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(665, 157)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(665, 156)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(665, 156)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(666, 156)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(667, 156)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(670, 156)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(673, 156)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(689, 156)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(700, 156)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(712, 159)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(742, 169)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(774, 182)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(796, 191)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(817, 201)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(825, 205)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(855, 218)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(866, 223)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(875, 227)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(878, 228)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(887, 232)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(889, 233)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(890, 234)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(891, 234)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(892, 235)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(893, 235)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(893, 235)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(893, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(893, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(893, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(892, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(892, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(891, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(891, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(891, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:38 2024,"(891, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(890, 236)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(889, 237)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(888, 238)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(879, 246)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(873, 253)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(864, 262)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(854, 274)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(841, 289)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(812, 323)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(797, 343)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(781, 364)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(765, 386)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(750, 406)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(722, 442)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(711, 458)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(702, 473)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(692, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(695, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(698, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(706, 485)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(711, 487)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(715, 489)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(725, 493)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(738, 500)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(763, 518)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(775, 528)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(780, 533)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(790, 541)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(801, 550)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(806, 553)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(808, 556)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(810, 557)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(811, 558)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(812, 559)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(812, 559)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(812, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(812, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(812, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(812, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(812, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:39 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",Unknown Zone,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(811, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(809, 560)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(794, 569)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(780, 577)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(758, 588)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(712, 615)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(677, 637)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(590, 686)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(590, 686)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(536, 718)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(490, 744)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(445, 771)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(395, 797)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(366, 812)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(359, 816)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(343, 824)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(340, 826)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(327, 831)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(324, 833)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(322, 833)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(321, 834)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(321, 834)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(321, 834)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(321, 834)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(321, 834)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(321, 834)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(321, 834)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(321, 834)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(321, 834)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(321, 834)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(321, 834)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(321, 834)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(321, 834)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(321, 834)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(322, 833)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(322, 833)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(322, 833)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(322, 833)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(322, 833)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(323, 833)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(323, 833)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(323, 832)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(324, 832)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(325, 831)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(325, 830)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(326, 829)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(327, 828)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(329, 825)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(330, 824)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(331, 822)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(332, 820)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(334, 818)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(336, 815)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(336, 814)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(337, 813)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(337, 811)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(338, 811)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:40 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(339, 810)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(339, 811)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(339, 811)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(339, 812)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(339, 812)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 813)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 814)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 814)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 815)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 816)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 816)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 817)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 817)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 817)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 817)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 818)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 818)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 818)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 818)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 818)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 818)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 818)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 818)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,l,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,l,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,l,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,l,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,l,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,l,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,l,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,l,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,l,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:41 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 819)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 811)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 801)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 787)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 770)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(338, 751)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(335, 668)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(321, 542)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(303, 434)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(280, 311)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(222, 44)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(180, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(171, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(167, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(163, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:42 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 0)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(162, 3)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(164, 6)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(168, 12)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(173, 20)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(205, 68)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(218, 84)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(230, 101)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(244, 118)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(262, 138)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(271, 147)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(274, 149)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(281, 155)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(286, 158)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(288, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(289, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(290, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(292, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(301, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(308, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(319, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(342, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(391, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(420, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(433, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(459, 159)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(484, 162)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:43 2024,"(511, 165)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(525, 167)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(536, 168)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(539, 169)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(550, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(553, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(556, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(557, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(558, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(558, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(558, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 171)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(559, 170)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(496, 455)",No click,,ls,,No recommendation
+Sat Mar 23 17:17:44 2024,"(496, 455)",No click,,rm -i fichier,rm -i,No recommendation
+Sat Mar 23 17:17:44 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:44 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:44 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:44 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:44 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:44 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:44 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:44 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:44 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:44 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(496, 455)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(492, 459)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(488, 463)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(484, 467)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(455, 497)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(440, 514)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(432, 523)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(417, 539)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(386, 573)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(357, 603)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(337, 622)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(320, 638)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(303, 652)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(288, 664)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(269, 677)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(260, 684)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(251, 689)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(249, 690)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 697)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 699)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 703)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 711)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 716)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 720)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 725)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 730)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 733)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 734)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(234, 735)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(235, 736)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(235, 736)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(235, 736)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(235, 736)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(236, 731)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(241, 699)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(250, 651)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(258, 601)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(266, 535)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(278, 453)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(305, 259)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(318, 159)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(331, 60)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(336, 21)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(351, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(351, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(352, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:45 2024,"(350, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(343, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(327, 1)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(318, 1)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(309, 2)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(299, 3)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(278, 3)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(261, 3)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(244, 3)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(238, 3)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(224, 3)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(204, 3)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(201, 2)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(195, 1)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(190, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(187, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(183, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(182, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(181, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(180, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(179, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(179, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(179, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(179, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(179, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(178, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(179, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(181, 1)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(187, 5)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(216, 25)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(234, 37)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(253, 53)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(262, 59)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(297, 86)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(311, 96)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(326, 107)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(331, 110)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(341, 117)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(352, 125)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(358, 130)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(365, 135)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(367, 137)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(373, 141)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(379, 147)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(382, 150)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:46 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(384, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(380, 149)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(375, 145)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(339, 115)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(317, 99)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(290, 79)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(261, 56)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(215, 24)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(164, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(164, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(143, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(136, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(119, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(111, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(95, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(95, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(95, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(95, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(95, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(95, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(95, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(95, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(95, 0)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(95, 1)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(97, 1)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(98, 2)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(100, 3)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(103, 3)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(109, 5)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(119, 9)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(124, 12)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(124, 12)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(147, 30)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(154, 38)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(157, 42)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(168, 57)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(173, 65)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(177, 72)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(180, 77)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(182, 83)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(186, 92)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(186, 94)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(186, 97)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(187, 100)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(188, 106)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(188, 110)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(189, 113)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(189, 116)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(191, 123)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(191, 123)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(193, 131)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(194, 134)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(196, 139)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(200, 148)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(202, 153)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(204, 159)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(206, 165)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(211, 177)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(214, 183)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(216, 187)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(218, 193)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(221, 198)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(223, 201)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(224, 204)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(225, 206)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(226, 207)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(227, 209)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(228, 209)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(228, 210)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(228, 210)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(229, 210)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(229, 210)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(230, 210)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(230, 209)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(231, 209)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(232, 207)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(234, 206)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(236, 204)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(238, 203)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(245, 199)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(250, 198)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(260, 193)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(260, 193)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(272, 187)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(280, 184)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(294, 176)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(301, 174)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(303, 172)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(308, 170)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:47 2024,"(319, 166)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(321, 166)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(326, 165)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(329, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(331, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(344, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(354, 164)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(372, 168)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(395, 174)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(422, 180)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(461, 188)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(483, 192)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(506, 196)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(513, 197)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(529, 199)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(546, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(553, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(564, 200)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(565, 199)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(566, 198)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(568, 196)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(570, 195)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(572, 193)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(573, 193)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(573, 192)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(574, 192)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(575, 192)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(575, 192)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(575, 192)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(575, 192)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(575, 192)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(575, 192)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(575, 192)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(575, 192)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(575, 192)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(575, 193)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(575, 193)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(575, 193)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(575, 194)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(575, 195)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(576, 198)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(576, 199)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(577, 201)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(578, 203)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(580, 209)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(580, 209)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(582, 214)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(583, 217)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(585, 221)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(585, 224)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(586, 226)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(587, 227)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(587, 229)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(588, 230)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(588, 230)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:48 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(588, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(589, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(589, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(589, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(589, 231)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(589, 232)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(590, 233)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(590, 234)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(590, 234)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(590, 235)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 236)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 236)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 236)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 236)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(591, 237)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,rm -i fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,chmod a,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:49 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(223, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(219, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(215, 109)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(210, 107)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(201, 105)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(195, 103)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(191, 102)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(180, 100)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(160, 95)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(149, 94)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(139, 92)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(131, 91)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(122, 89)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(106, 87)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(99, 86)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:50 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:51 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 84)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 83)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 81)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 78)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(92, 76)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(94, 71)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(94, 68)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(95, 65)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(96, 63)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(97, 61)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(98, 57)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(98, 56)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(99, 55)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(99, 54)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(100, 53)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(100, 53)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(100, 53)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(100, 53)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(100, 52)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(100, 52)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(100, 52)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 52)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 52)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 52)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 52)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 51)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 51)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 51)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 51)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 51)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 51)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 51)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 51)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 51)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 50)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 50)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 50)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 50)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 50)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:52 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:53 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(101, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(100, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(98, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(94, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(91, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(83, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(78, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(72, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(67, 48)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(62, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(51, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(49, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(45, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(41, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(35, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(33, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(32, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(30, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(28, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(27, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(26, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(25, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(24, 49)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(22, 48)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(21, 48)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(20, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(19, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(18, 47)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(17, 46)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(16, 45)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(15, 45)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(15, 45)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(14, 44)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 43)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 43)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 43)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(12, 42)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(12, 42)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(12, 42)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(12, 41)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(12, 41)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(12, 41)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(12, 41)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(12, 41)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(12, 41)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(12, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(12, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(12, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(12, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(12, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:54 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:55 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:55 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:55 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:55 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:55 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:55 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:55 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:55 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:55 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:55 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:55 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:55 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
+Sat Mar 23 17:17:55 2024,"(13, 40)",No click,,chmod a+rw fichier,,No recommendation
