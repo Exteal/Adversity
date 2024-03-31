@@ -26,9 +26,23 @@ class RecommandationWidget(QWidget):
         self.revealed = False
         self.content = self.recommandation.header
         self.timer = None
+        self.color = QColor("red")
+
+
+    def log_to_interface(self, event, widget=""):
+        
+        interface = self.parent().parent()
+        interface.prepare_log(event, widget)
+       
 
 
     def mousePressEvent(self, event):
+        button = "left" if event.button() == Qt.LeftButton else "right"
+
+        
+        self.log_to_interface("Clicked " + button, "Recommandation")
+        
+
         if self.revealed:
            self.processNextRecommandation()
         
@@ -53,9 +67,22 @@ class RecommandationWidget(QWidget):
 
     ### TODO
     def deleteWidget(self):
-        print("del")
         self.deleteLater()
     
+
+    def enterEvent(self, event):
+        self.log_to_interface("Started hovering", "Recommandation")
+
+        self.color = QColor("blue")
+        self.update()
+
+    def leaveEvent(self, event):
+        self.log_to_interface("Finished hovering", "Recommandation")
+
+
+        self.color = QColor("red")
+        self.update()
+
 
     def reveal(self):
         self.content = self.recommandation.body
@@ -92,7 +119,7 @@ class RecommandationWidget(QWidget):
         painter.setBrush(brush)
 
 
-        painter.fillRect(QRect(0,0, width, height), QColor("red"))
+        painter.fillRect(QRect(0,0, width, height), self.color)
         painter.drawText(QPoint(int(width/3), int(height/2)), self.content)
         
         #painter.drawLine(0,0, width, 0)

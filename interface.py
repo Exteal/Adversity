@@ -6,13 +6,27 @@ from PyQt5.QtGui import *
 from menu import Menu
 from recommand_lib import recommand
 from terminal import Terminal
+from time import perf_counter as pc
+import csv
 
 class Interface(QMainWindow):
-    def __init__(self):
+    def __init__(self, log_file):
         super().__init__()
+        self.triggering_widget = None
+        self.triggering_event = None
+        self.log_file = log_file
 
         self.initUI()
+        self.started = pc()
 
+        self.start_timeout_log()
+
+
+    def start_timeout_log(self):
+        self.timer = QTimer(self)
+        self.timer.timeout.connect(self.timout_log)
+        self.timer.start(2000)
+    
     def initUI(self):
         # Créer le widget principal
         central_widget = QWidget(self)
@@ -115,8 +129,6 @@ class Interface(QMainWindow):
     def print_to_terminal(self, text):
         self.term.cmdWindow.insertPlainText(text)
         
-    def test_action_triggered(self):
-        print("Test action triggered!")
 
     def run_command(self):
         # Récupérer la commande saisie par l'utilisateur
@@ -135,11 +147,41 @@ class Interface(QMainWindow):
         # Effacer la sortie du terminal
         self.terminal_output.clear()
 
+
+    def log(self):
+        mouse_pos = QCursor.pos()
+        x, y = mouse_pos.x(), mouse_pos.y()
+
+        writer = csv.DictWriter(self.log_file, fieldnames=["event", "widget", "cursor", "timing"])
+
+        writer.writerow({
+            "event" : self.triggering_event,
+            "widget" : self.triggering_widget,
+            "cursor" : f"({x},{y})",
+            "timing" : pc() - self.started
+        })
+        self.log_file.flush()
+
+    def timout_log(self):
+        self.prepare_log("timeout", "")
+
+    def keyPressEvent(self, event):
+        self.prepare_log("Keypress " + event.text(), "")
+
+    def prepare_log(self, event, widget):
+        self.triggering_event = event
+        self.triggering_widget = widget
+        self.log()
+        self.triggering_event = ""
+        self.triggering_widget = ""
+
+
 def main(args):
     app = QApplication(args)
-    interface = Interface()
-    interface.show()
-    sys.exit(app.exec())
+    with open("log.csv", "w", newline='') as file:
+        interface = Interface(file)
+        interface.show()
+        sys.exit(app.exec())
     
     
 if __name__ == '__main__':
