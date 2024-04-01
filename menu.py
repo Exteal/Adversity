@@ -22,13 +22,14 @@ class Menu:
             command_menu = QMenu(command_name, interface)
             command_menu.setTitle(command_description)
             # Ajouter une action pour chaque option de la commande
-            for option, option_data in command_data['option'].items():
+            for option_data in command_data['options']:
+                option = option_data["option"]
                 option_description = option_data['description']
                 option_exemple = option_data['exemple']
-
-                # Ajouter l'action au sous-menu
-                command_menu.addAction(option_description, lambda exemple=option_exemple: interface.print_to_terminal(exemple))
-
-
+                # Ajouter une action pour chaque option
+                action = command_menu.addAction(option_description)
+                # Connecter l'action à une fonction
+                action.triggered.connect(lambda _, opt=option, cmd=command_name, ex=option_exemple: interface.command_selected(ex, cmd, opt))
+                action.hovered.connect(lambda opt=option, cmd=command_name: interface.command_hovered(cmd, opt))
             # Ajouter le sous-menu au menu principal
             commands_menu.addMenu(command_menu)
