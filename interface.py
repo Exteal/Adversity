@@ -97,8 +97,15 @@ class Interface(QMainWindow):
         self.term.cursorEnd()
         self.term.cmdWindow.insertPlainText(text)
         
+    def command_selected(self, exemple, command_name, option_name):
+        # Print et log la commande sélectionnée
+        self.print_to_terminal(exemple)
+        self.prepare_log("Selected " + command_name + " " + option_name, "Menu")
 
-
+    def command_hovered(self, command_name, option_name):
+        # log la commande survolée
+        self.prepare_log("Hovered " + command_name + " " + option_name, "Menu")
+        
     def log(self):
         mouse_pos = QCursor.pos()
         x, y = mouse_pos.x(), mouse_pos.y()
