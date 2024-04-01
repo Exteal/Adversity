@@ -38,13 +38,6 @@ class Interface(QMainWindow):
         main_layout = QHBoxLayout()
         # Créer un layout vertical pour le centre de l'interface
         center_layout = QVBoxLayout()
-
-        # Créer un widget QComboBox pour le menu déroulant
-        #menu_combobox = QComboBox(self)
-        #menu_combobox.addItem("tar")
-        #menu_combobox.addItem("grep")
-        #menu_combobox.addItem("cp")
-        #center_layout.addWidget(menu_combobox)
         
         # Créer un widget QTextEdit pour l'instruction donnée
         instruction_text = QTextEdit(self)
