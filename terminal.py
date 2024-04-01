@@ -171,9 +171,18 @@ class Terminal(QWidget):
         self.textWindow.setFocus()
         self.textWindow.appendPlainText(self.cmdWindow.toPlainText())
         cli = shlex.split(self.cmdWindow.toPlainText().replace(self.name, '').replace("'", '"'), posix=False)
-        cmd = str(cli[0]) 
-
-        if cmd == "exit":
+        
+        try :
+            cmd = str(cli[0])
+        except IndexError:
+            self.cursorEnd()
+            return
+        
+        if cmd == "clear":
+            self.textWindow.clear()
+            self.cursorEnd()
+             
+        elif cmd == "exit":
             quit()
 
         elif cmd == "cd":
