@@ -53,6 +53,7 @@ class Terminal(QWidget):
     def closeEvent(self, e):
         self.writeSettings()
 
+
     def cursorEnd(self):
         self.name = (str(getpass.getuser()) + "@" + str(socket.gethostname()) 
                     + ":" + str(os.getcwd()) + "$ ")
@@ -128,6 +129,8 @@ class Terminal(QWidget):
                     return True
 
                 else:
+                    interface = self.parent().parent()
+                    interface.prepare_log("Key press " + event.text(), "Terminal")
                     return False
             else:
                 return False

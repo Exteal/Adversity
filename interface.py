@@ -117,7 +117,12 @@ class Interface(QMainWindow):
         self.prepare_log("timeout", "")
 
     def keyPressEvent(self, event):
-        self.prepare_log("Keypress " + event.text(), "")
+        self.prepare_log("Key press " + event.text(), "")
+
+    def mousePressEvent(self, event):
+        button = "left" if event.button() == Qt.LeftButton else "right"
+        self.prepare_log("Mouse press " + button, "")
+
 
     def prepare_log(self, event, widget):
         self.triggering_event = event
