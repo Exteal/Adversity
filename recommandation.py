@@ -26,7 +26,7 @@ class RecommandationWidget(QWidget):
         self.revealed = False
         self.content = self.recommandation.header
         self.timer = None
-        self.color = QColor("red")
+        self.color = QColor("white")
 
 
     def log_to_interface(self, event, widget=""):
@@ -73,14 +73,14 @@ class RecommandationWidget(QWidget):
     def enterEvent(self, event):
         self.log_to_interface("Started hovering", "Recommandation")
 
-        self.color = QColor("blue")
+        self.color = QColor("gray")
         self.update()
 
     def leaveEvent(self, event):
         self.log_to_interface("Finished hovering", "Recommandation")
 
 
-        self.color = QColor("red")
+        self.color = QColor("white")
         self.update()
 
 
