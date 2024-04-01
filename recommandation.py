@@ -21,7 +21,6 @@ class RecommandationWidget(QWidget):
     #def __init__(self, header, body, timeout):
         QWidget.__init__(self)
         self.recommandation_list = recommandation_list
-        #self.recommandation = Recommandation(header, body)
         self.recommandation = self.recommandation_list.pop(0)
         self.revealed = False
         self.content = self.recommandation.header
@@ -38,9 +37,9 @@ class RecommandationWidget(QWidget):
 
     def mousePressEvent(self, event):
         button = "left" if event.button() == Qt.LeftButton else "right"
-
+        recomm = "Recommandation " + self.recommandation.header
         
-        self.log_to_interface("Clicked " + button, "Recommandation")
+        self.log_to_interface("Clicked " + button, recomm)
         
 
         if self.revealed:
@@ -71,13 +70,15 @@ class RecommandationWidget(QWidget):
     
 
     def enterEvent(self, event):
-        self.log_to_interface("Started hovering", "Recommandation")
+        recomm = "Recommandation " + self.recommandation.header
+        self.log_to_interface("Started hovering", recomm)
 
         self.color = QColor("blue")
         self.update()
 
     def leaveEvent(self, event):
-        self.log_to_interface("Finished hovering", "Recommandation")
+        recomm = "Recommandation " + self.recommandation.header
+        self.log_to_interface("Finished hovering", recomm)
 
 
         self.color = QColor("red")
