@@ -64,33 +64,39 @@ class Terminal(QWidget):
         self.cmdWindow.setFocus()
 
     def eventFilter(self, source, event):
+        interface = self.parent().parent()
         if source == self.cmdWindow:
             if (event.type() == QEvent.DragEnter):
+                interface.prepare_log("File drag entered", "Terminal")
                 event.accept()
                 return True
             elif (event.type() == QEvent.Drop):
-                print ('Drop')
+                interface.prepare_log("File dropped", "Terminal")
                 self.setDropEvent(event)
                 return True
             elif (event.type() == QEvent.KeyPress):
                 cursor = self.cmdWindow.textCursor()
                 if event.key() == Qt.Key_Backspace:
+                    interface.prepare_log("Key press: Backspace", "Terminal")
                     if cursor.positionInBlock() <= len(self.name):
                         return True
                     else:
                         return False
         
                 elif event.key() == Qt.Key_Return:
+                    interface.prepare_log("Key press: Return", "Terminal")
                     self.run_command()
                     return True
         
                 elif event.key() == Qt.Key_Left:
+                    interface.prepare_log("Key press: Left", "Terminal")
                     if cursor.positionInBlock() <= len(self.name):
                         return True
                     else:
                         return False
             
                 elif event.key() == Qt.Key_Delete:
+                    interface.prepare_log("Key press: Delete", "Terminal")
                     if cursor.positionInBlock() <= len(self.name) - 1:
                         return True
                     else:
@@ -112,6 +118,7 @@ class Terminal(QWidget):
         
                     except IndexError:
                         self.track = 0
+                    interface.prepare_log("Key press: Up", "Terminal")
                     return True
 
                 elif event.key() == Qt.Key_Down:
@@ -126,11 +133,14 @@ class Terminal(QWidget):
         
                     except IndexError:
                         self.track = 0
+                    interface.prepare_log("Key press: Down", "Terminal")
                     return True
 
                 else:
-                    interface = self.parent().parent()
-                    interface.prepare_log("Key press " + event.text(), "Terminal")
+                    if event.text() == " ":
+                        interface.prepare_log("Key press: Space", "Terminal")
+                        return False
+                    interface.prepare_log("Key press: " + event.text(), "Terminal")
                     return False
             else:
                 return False
@@ -248,6 +258,10 @@ class Terminal(QWidget):
         self.settings.setValue("commands", self.cmdlist)
         self.settings.setValue("pos", self.pos())
         self.settings.setValue("size", self.size())
+    
+    def get_input(self):
+        cli = self.cmdWindow.toPlainText().replace(self.name, "")
+        return cli
         
 def stylesheet(self):
     """Here you can set the fond color of the text and the background"""

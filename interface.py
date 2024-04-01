@@ -12,7 +12,7 @@ import csv
 class Interface(QMainWindow):
     def __init__(self, log_file):
         super().__init__()
-        writer = csv.DictWriter(log_file, fieldnames=["time",  "cursor", "event", "widget"])
+        writer = csv.DictWriter(log_file, fieldnames=["time",  "cursor", "event", "widget", "terminal_input"])
         writer.writeheader()
         self.triggering_widget = None
         self.triggering_event = None
@@ -100,23 +100,24 @@ class Interface(QMainWindow):
     def command_selected(self, exemple, command_name, option_name):
         # Print et log la commande sélectionnée
         self.print_to_terminal(exemple)
-        self.prepare_log("Selected " + command_name + " " + option_name, "Menu")
+        self.prepare_log("Selected: " + command_name + " " + option_name, "Menu")
 
     def command_hovered(self, command_name, option_name):
         # log la commande survolée
-        self.prepare_log("Hovered " + command_name + " " + option_name, "Menu")
+        self.prepare_log("Hovered: " + command_name + " " + option_name, "Menu")
         
     def log(self):
         mouse_pos = QCursor.pos()
         x, y = mouse_pos.x(), mouse_pos.y()
 
-        writer = csv.DictWriter(self.log_file, fieldnames=[ "time",  "cursor", "event", "widget"])
+        writer = csv.DictWriter(self.log_file, fieldnames=[ "time",  "cursor", "event", "widget", "terminal_input"])
 
         writer.writerow({
             "time" : pc() - self.started,
             "cursor" : f"({x},{y})",
             "event" : self.triggering_event,
-            "widget" : self.triggering_widget
+            "widget" : self.triggering_widget,
+            "terminal_input" : self.term.cmdWindow.toPlainText()
         })
         self.log_file.flush()
 
@@ -124,11 +125,11 @@ class Interface(QMainWindow):
         self.prepare_log("timeout", "")
 
     def keyPressEvent(self, event):
-        self.prepare_log("Key press " + event.text(), "")
+        self.prepare_log("Key press: " + event.text(), "")
 
     def mousePressEvent(self, event):
         button = "left" if event.button() == Qt.LeftButton else "right"
-        self.prepare_log("Mouse press " + button, "")
+        self.prepare_log("Mouse press: " + button, "")
 
 
     def prepare_log(self, event, widget):

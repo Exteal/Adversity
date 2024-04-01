@@ -1,10 +1,90 @@
-temps,souris_x_y,zone_click,eye_x_y,entree_clavier,recommandation
-10:00:00,"(100, 200)",1,"(300, 400)",A,Recommandation 1
-10:00:01,"(101, 201)",2,"(301, 401)",B,Recommandation 2
-10:00:02,"(102, 202)",3,"(302, 402)",C,Recommandation 3
-10:00:03,"(103, 203)",4,"(303, 403)",D,Recommandation 4
-10:00:04,"(104, 204)",5,"(304, 404)",E,Recommandation 5
-10:00:05,"(105, 205)",6,"(305, 405)",F,Recommandation 6
-10:00:06,"(106, 206)",7,"(306, 406)",G,Recommandation 7
-10:00:07,"(107, 207)",8,"(307, 407)",H,Recommandation 8
-10:00:08,"(108, 208)",9,"(308, 408)",I,Recommandation 9
+time,cursor,event,widget,terminal_input
+1.9037332499865443,"(453,111)",timeout,,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ 
+2.109971374971792,"(495,99)",Hovered: cp -r,Menu,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ 
+2.895616624969989,"(503,336)",Selected: cp -r,Menu,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1 repertoire2
+3.816691125044599,"(569,751)",timeout,,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1 repertoire2
+3.8855596659705043,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1 repertoire2
+4.371392708038911,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1 repertoire
+4.455562707968056,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1 repertoir
+4.538819250068627,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1 repertoi
+4.621905083069578,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1 reperto
+4.7048836660105735,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1 repert
+4.788551375037059,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1 reper
+4.872625958058052,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1 repe
+4.956876915995963,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1 rep
+5.039632915984839,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1 re
+5.122196166077629,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1 r
+5.2063270000508055,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1 
+5.291389040998183,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire1
+5.374556583003141,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoire
+5.457624500035308,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoir
+5.541389415971935,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repertoi
+5.625922332983464,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r reperto
+5.710864415974356,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repert
+5.79517604096327,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r reper
+5.815910540986806,"(569,751)",timeout,,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repe
+5.87902708305046,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r repe
+5.964234333019704,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r rep
+6.047360165975988,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r re
+6.132199291023426,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r r
+6.215875625028275,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r 
+6.299597125034779,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -r
+6.3828286660136655,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp -
+6.467000624979846,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp 
+6.550643541035242,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cp
+6.63377970806323,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ c
+6.717635416076519,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ 
+6.802637791028246,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ 
+7.267311749979854,"(569,751)",Key press: c,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ 
+7.499311333056539,"(569,751)",Key press: d,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ c
+7.533078207983635,"(569,751)",Key press: n,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cd
+7.8159217910142615,"(569,751)",timeout,,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cdn
+8.025605916045606,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cdn
+8.199660415994003,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cd
+8.363213791046292,"(569,751)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ c
+9.329573458060622,"(414,466)",Key press: c,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ 
+9.46590800001286,"(414,466)",Key press: d,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ c
+9.662464083055966,"(414,466)",Key press: Return,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cd
+9.815639415988699,"(414,466)",timeout,,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ 
+11.08719537500292,"(414,466)",Key press: m,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ 
+11.43775295803789,"(414,466)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ m
+11.615113249979913,"(414,466)",Key press: l,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ 
+11.716442540986463,"(414,466)",Key press: s,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ l
+11.815900541027077,"(414,466)",timeout,,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ ls
+11.8602754160529,"(414,466)",Key press: Return,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ ls
+12.597287041018717,"(414,466)",Key press: c,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ 
+12.665042166016065,"(414,466)",Key press: d,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ c
+12.858940500067547,"(414,466)",Key press: Space,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cd
+12.941829250077717,"(414,466)",Key press: ,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cd 
+12.942066958057694,"(414,466)",Key press: ,,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cd 
+13.006033916026354,"(414,466)",Key press: .,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cd 
+13.168679666006938,"(414,466)",Key press: .,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cd .
+13.380876291077584,"(414,466)",Key press: Return,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND/Adversity$ cd ..
+13.81631720799487,"(414,466)",timeout,,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND$ 
+14.963674708036706,"(414,466)",Key press: l,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND$ 
+15.034232291043736,"(414,466)",Key press: s,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND$ l
+15.178418791037984,"(414,466)",Key press: Return,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND$ ls
+15.816073499969207,"(414,466)",timeout,,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND$ 
+15.936192416003905,"(414,466)",Key press: c,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND$ 
+16.015091250068508,"(414,466)",Key press: d,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND$ c
+16.226049500051886,"(414,466)",Key press: Space,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND$ cd
+16.328736250055954,"(414,466)",Key press: ,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND$ cd 
+16.329778791056015,"(414,466)",Key press: ,,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND$ cd 
+16.476200625067577,"(414,466)",Key press: .,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND$ cd 
+16.643998333020136,"(414,466)",Key press: .,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND$ cd .
+17.278101666015573,"(414,466)",Key press: Return,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2/P_AND$ cd ..
+17.686887457966805,"(414,466)",Key press: c,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2$ 
+17.774899375042878,"(414,466)",Key press: d,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2$ c
+17.81602179107722,"(414,466)",timeout,,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2$ cd
+17.973506250069477,"(414,466)",Key press: Space,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2$ cd
+18.209868416073732,"(414,466)",Key press: ,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2$ cd 
+18.210088916006498,"(414,466)",Key press: ,,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2$ cd 
+18.32192937505897,"(414,466)",Key press: /,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2$ cd 
+18.483844375004992,"(414,466)",Key press: /,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2$ cd /
+19.226518583018333,"(414,466)",Key press: Backspace,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2$ cd //
+19.580017582979053,"(414,466)",Key press: Return,Terminal,saad@MacBook-Pro-de-Saad.local:/Users/saad/M1/S2$ cd /
+19.816048125037923,"(414,466)",timeout,,saad@MacBook-Pro-de-Saad.local:/$ 
+21.045972540974617,"(414,466)",Key press: l,Terminal,saad@MacBook-Pro-de-Saad.local:/$ 
+21.132915665977634,"(414,466)",Key press: s,Terminal,saad@MacBook-Pro-de-Saad.local:/$ l
+21.27320925006643,"(414,466)",Key press: Return,Terminal,saad@MacBook-Pro-de-Saad.local:/$ ls
+21.81567400007043,"(414,466)",timeout,,saad@MacBook-Pro-de-Saad.local:/$ 
