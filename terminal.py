@@ -201,10 +201,14 @@ class Terminal(QWidget):
         elif cmd == "cd":
             del cli[0]
             path = " ".join(cli)
-            os.chdir(os.path.abspath(path))
-            self.proc.setWorkingDirectory(os.getcwd())
-            print("Directory:", self.proc.workingDirectory())
-            self.cursorEnd()
+            try:
+                os.chdir(os.path.abspath(path))
+                self.proc.setWorkingDirectory(os.getcwd())
+                print("Directory:", self.proc.workingDirectory())
+                self.cursorEnd()
+            except FileNotFoundError:
+                self.textWindow.appendPlainText("No such file or directory")
+                self.cursorEnd()
         else:
             self.proc.setWorkingDirectory(os.getcwd())
             print("Directory", self.proc.workingDirectory())
