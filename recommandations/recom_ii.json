@@ -1,0 +1,44 @@
+{
+    "participant" : "ii",
+    "blocks" : [
+                    {
+                        "block_name" : "bluck",
+                        "block_content" : [
+                            {
+                            "header" : "Rec",
+                            "body" : "Oui",
+                            "timeout_seconds" : 1
+                            } 
+                        ]
+                    },
+
+                    {
+                        "block_name" : "CECI EST UN BLOCK",
+                        "block_content" : [
+                            {
+                            "header" : "REC",
+                            "body" : "Non",
+                            "timeout_seconds" : 2
+                            }, 
+
+                            {
+                            "header" : "ERC",
+                            "body" : "Enfin",
+                            "timeout_seconds" : 4
+                            } 
+                        ]
+                    },
+
+                    {
+                        "block_name" : "BLOCK DE FIN",
+                        "block_content" : [
+                            {
+                            "header" : "Rec",
+                            "body" : "Oui",
+                            "timeout_seconds" : 1
+                            } 
+                        ]
+
+                    }
+                ]
+}  

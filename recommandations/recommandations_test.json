@@ -1,0 +1,15 @@
+{
+    "participant" : "test",
+    "blocks" : [
+                    {
+                        "block_name" : "BLBLBLOCK",
+                        "block_content" : [
+                            {
+                            "header" : "Rec",
+                            "body" : "Oui",
+                            "timeout_seconds" : 1
+                            } 
+                        ]
+                    }
+                ]
+}  

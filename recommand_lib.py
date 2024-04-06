@@ -3,7 +3,7 @@ import json
 from recommandation import Recommandation, RecommandationWidget
 
 
-file_name = "recommandations"
+file_name = "recommandations/recommandations_moi"
 txt_path = file_name + ".txt"
 json_path = file_name + ".json"
 

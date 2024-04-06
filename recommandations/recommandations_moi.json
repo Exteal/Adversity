@@ -1,0 +1,56 @@
+{
+    "participant" : "moi",
+    "blocks" : [
+                    {
+                        "block_name" : "block1",
+                        "block_content" : [
+                            {
+                            "header" : "recommandation 1.1",
+                            "body" : "Lire la doc",
+                            "timeout_seconds" : 1
+                            } ,
+                    
+                            {
+                                "header" : "recommandation 1.2",
+                                "body" : "Write",
+                                "timeout_seconds" : 2
+                            } ,
+                    
+                            {
+                                "header" : "recommandation 1.3",
+                                "body" : "Oik",
+                                "timeout_seconds" : 3
+                            } ,
+                    
+                            {
+                                "header" : "recommandation 1.4",
+                                "body" : "brave",
+                                "timeout_seconds" : 0
+                            }
+                        ]
+                    },
+
+                    {
+                        "block_name" : "block2",
+                        "block_content" : [
+                            {
+                            "header" : "recommandation 2.1",
+                            "body" : "Bonjour",
+                            "timeout_seconds" : 1
+                            } ,
+                    
+                            {
+                                "header" : "recommandation 2.2",
+                                "body" : "Merci",
+                                "timeout_seconds" : 2
+                            } ,
+                    
+                            {
+                                "header" : "recommandation 2.3",
+                                "body" : "Au revoir",
+                                "timeout_seconds" : 3
+                            }
+                        ]
+                    }
+                ]
+}  
