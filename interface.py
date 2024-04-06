@@ -1,8 +1,7 @@
 import sys
-from PyQt5.QtWidgets import *
-from PyQt5.QtCore import *
-from PyQt5.QtWebEngineWidgets import *
-from PyQt5.QtGui import *
+from PyQt5.QtGui import QKeyEvent, QMouseEvent, QCursor
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QTextEdit, QSpacerItem, QSizePolicy
+from PyQt5.QtCore import QTimer, Qt
 from menu import Menu
 from recommand_lib import recommand
 from terminal import Terminal
@@ -12,7 +11,7 @@ import csv
 class Interface(QMainWindow):
     def __init__(self, log_file):
         super().__init__()
-        writer = csv.DictWriter(log_file, fieldnames=["time",  "cursor", "event", "widget", "terminal_input"])
+        writer = csv.DictWriter(log_file, fieldnames=["time",  "cursor_x", "cursor_y", "event", "widget","terminal_directory", "terminal_input"])
         writer.writeheader()
         self.triggering_widget = None
         self.triggering_event = None
@@ -21,7 +20,7 @@ class Interface(QMainWindow):
         self.initUI()
         self.started = pc()
 
-        self.start_timeout_log()
+        #self.start_timeout_log()
 
 
     def start_timeout_log(self):
@@ -103,14 +102,16 @@ class Interface(QMainWindow):
         mouse_pos = QCursor.pos()
         x, y = mouse_pos.x(), mouse_pos.y()
 
-        writer = csv.DictWriter(self.log_file, fieldnames=[ "time",  "cursor", "event", "widget", "terminal_input"])
+        writer = csv.DictWriter(self.log_file, fieldnames=[ "time",  "cursor_x", "cursor_y", "event", "widget", "terminal_directory", "terminal_input"])
 
         writer.writerow({
             "time" : pc() - self.started,
-            "cursor" : f"({x},{y})",
+            "cursor_x" : x,
+            "cursor_y" : y,
             "event" : self.triggering_event,
             "widget" : self.triggering_widget,
-            "terminal_input" : self.term.cmdWindow.toPlainText()
+            "terminal_directory" : self.term.get_directory(),
+            "terminal_input" : self.term.get_input()
         })
         self.log_file.flush()
 
@@ -119,10 +120,24 @@ class Interface(QMainWindow):
 
     def keyPressEvent(self, event):
         self.prepare_log("Key press: " + event.text(), "")
+    
+    def keyReleaseEvent(self, event):
+        self.prepare_log("Key release: " + event.text(), "")
 
     def mousePressEvent(self, event):
         button = "left" if event.button() == Qt.LeftButton else "right"
         self.prepare_log("Mouse press: " + button, "")
+        
+    def mouseReleaseEvent(self, event):
+        button = "left" if event.button() == Qt.LeftButton else "right"
+        self.prepare_log("Mouse release: " + button, "")
+    
+    def mouseMoveEvent(self, event):
+        if event.buttons() == Qt.NoButton:
+            self.prepare_log("Mouse move", "")
+        else:
+            button = "left" if event.buttons() == Qt.LeftButton else "right"
+            self.prepare_log("Mouse drag: " + button, "")
 
 
     def prepare_log(self, event, widget):

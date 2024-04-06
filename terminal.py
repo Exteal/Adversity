@@ -266,6 +266,9 @@ class Terminal(QWidget):
     def get_input(self):
         cli = self.cmdWindow.toPlainText().replace(self.name, "")
         return cli
+    
+    def get_directory(self):
+        return self.proc.workingDirectory()
         
 def stylesheet(self):
     """Here you can set the fond color of the text and the background"""
