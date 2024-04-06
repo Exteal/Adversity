@@ -1,9 +1,8 @@
-import sys
 from PyQt5.QtGui import QKeyEvent, QMouseEvent, QCursor
-from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QTextEdit, QSpacerItem, QSizePolicy
+from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QTextEdit, QSpacerItem, QSizePolicy
 from PyQt5.QtCore import QTimer, Qt
+
 from menu import Menu
-from recommand_lib import recommand
 from terminal import Terminal
 from time import perf_counter as pc
 import csv

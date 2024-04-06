@@ -16,9 +16,36 @@ class Recommandation():
 
 
 
+class Worker(QObject):
+    finished = pyqtSignal()
+    progress = pyqtSignal(int)
+    
+    def __init__(self, maximum):
+        QObject.__init__(self)
+        self.value = 0
+        self.maximum = maximum
+
+    def run(self):
+        self.time = QTimer(self)
+
+        if self.maximum == 0:
+            self.finished.emit()
+        else :
+            self.time.timeout.connect(self.incr)
+            self.time.start(1000)
+       
+    def incr(self):
+        self.value = self.value + 1
+        if self.value == self.maximum:
+            self.finished.emit()
+            self.time.stop()
+        else:
+            self.progress.emit(self.value)
+
+
+
 class RecommandationWidget(QWidget):
     def __init__(self, recommandation_list):
-    #def __init__(self, header, body, timeout):
         QWidget.__init__(self)
         self.recommandation_list = recommandation_list
         self.recommandation = self.recommandation_list.pop(0)
@@ -26,6 +53,8 @@ class RecommandationWidget(QWidget):
         self.content = self.recommandation.header
         self.timer = None
         self.color = QColor("white")
+        self.progress = QProgressBar(self)
+        self.progress.hide()
 
 
     def log_to_interface(self, event, widget=""):
@@ -51,13 +80,47 @@ class RecommandationWidget(QWidget):
                 self.timer.setSingleShot(True)
                 self.timer.timeout.connect(self.reveal)
                 self.timer.start(self.recommandation.timeout)
+                self.initProgress()
             
 
-       
+    def initProgress(self):
+        maximum = self.recommandation.timeout / 1000
+
+        self.progress.setRange(0, maximum)
+        self.progress.setValue(0)
+
+        self.progress.show()
+        
+        self.thread = QThread(self)
+        self.worker = Worker(maximum)
+        
+        self.worker.moveToThread(self.thread)
+
+        self.thread.started.connect(self.worker.run)
+        self.worker.finished.connect(self.thread.quit)
+        self.worker.finished.connect(self.worker.deleteLater)
+        
+        
+        self.thread.finished.connect(self.thread.deleteLater)
+        self.worker.progress.connect(self.reportProgress)
+
+        self.thread.start()
+  
+
+   
+    def reportProgress(self, value):
+
+        self.progress.setValue(value)
+        self.update()
+        
+
+
+
     def processNextRecommandation(self) :
         if not self.recommandation_list:
             self.deleteWidget()
             return
+        self.progress.hide()
         self.recommandation = self.recommandation_list.pop(0)
         self.content = self.recommandation.header
         self.timer = None
@@ -89,6 +152,8 @@ class RecommandationWidget(QWidget):
         self.content = self.recommandation.body
         self.revealed = True
         self.timer = None
+        self.progress.hide()
+
         self.update()
     
     def paintEvent(self, event):
