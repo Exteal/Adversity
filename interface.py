@@ -17,6 +17,12 @@ class Interface(QMainWindow):
         self.triggering_event = None
         self.log_file = log_file
 
+
+    def load_recommandations(self, recommandation_widget):
+        self.recommandation_widget = recommandation_widget
+
+
+    def start_interface(self):
         self.initUI()
         self.started = pc()
 
@@ -55,8 +61,8 @@ class Interface(QMainWindow):
         # Créer un layout pour le fil de recommandations
         recommendations_list = QVBoxLayout()
     
-        for item in recommand():
-            recommendations_list.addWidget(item)
+      
+        recommendations_list.addWidget(self.recommandation_widget)
 
         spacing = QVBoxLayout()
         spacing.addSpacerItem(QSpacerItem(10, 10, QSizePolicy.Policy.MinimumExpanding, QSizePolicy.Policy.MinimumExpanding))
@@ -79,7 +85,7 @@ class Interface(QMainWindow):
         # Configuration initiale
         self.setWindowTitle('Interface Example')
         # prend toute la taille de l'écran
-        self.showMaximized()
+        #self.showMaximized()
         
         
          # Créer la barre de menu
@@ -148,14 +154,12 @@ class Interface(QMainWindow):
         self.triggering_widget = ""
 
 
-def main(args):
-    app = QApplication(args)
-    with open("log.csv", "w", newline='') as file:
-        interface = Interface(file)
-        interface.show()
-        sys.exit(app.exec())
+def interface_init():
+    #app = QApplication(args)
+    file =  open("log.csv", "w", newline='')
+    interface = Interface(file)
+        #interface.show()
+        #sys.exit(app.exec())
     
-    
-if __name__ == '__main__':
-    main(sys.argv)
+    return interface
     
