@@ -1,0 +1,70 @@
+{
+    "participant" : "bandito",
+    "blocks" : [
+        {
+            "block_name" : "premier block",
+            "block_type" : "bandit",
+            "block_content" :
+                {
+                    "bras" : [
+                        {
+                            "side" : "gauche",
+                            "rewards" : [2,2,5,1,0,7,9,1,-4,0],
+                            "a priori" : "environ 20 points"
+                        },
+
+                        {
+                            "side" : "droit",
+                            "rewards" : [-10,-10,-10,-10,60,-10,-10,80,90,-100],
+                            "a priori" : "environ 100 points"
+                        }
+                
+                    ],
+                    
+                    "chargements_questionnaire" : [2, 6, 10]
+                }
+        },
+
+        {
+            "block_name" : "deuxieme block",
+            "block_type" : "bandit",
+            "block_content" :
+                {
+                    "bras" : [
+                        {
+                            "side" : "gauche",
+                            "rewards" : [1, 1, 1],
+                            "a priori" : "3 points"
+                        },
+
+                        {
+                            "side" : "droit",
+                            "rewards" : [-2, 0, 5],
+                            "a priori" : "3 points"
+                        }
+                
+                    ],
+                    
+                    "chargements_questionnaire" : [2]
+                }
+        },
+
+        {
+            "block_name" : "dernier block",
+            "block_type" : "recommandation",
+            "block_content" : [
+                {
+                "header" : "recommandation une",
+                "body" : "B.... C.....",
+                "timeout_seconds" : 2
+                }, 
+
+                {
+                "header" : "recommandation deux",
+                "body" : "Bonne chance",
+                "timeout_seconds" : 4
+                } 
+            ]
+        }
+    ]
+}

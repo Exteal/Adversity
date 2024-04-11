@@ -46,7 +46,7 @@ class Worker(QObject):
 
 class RecommandationWidget(QWidget):
     def __init__(self, recommandation_list):
-        QWidget.__init__(self)
+        super().__init__(self)
         self.recommandation_list = recommandation_list
         self.recommandation = self.recommandation_list.pop(0)
         self.revealed = False

@@ -3,8 +3,8 @@ from parameters import ParametersWindow
 import sys
 from PyQt5.QtWidgets import *
 from recommandation import RecommandationWidget
-
-
+from interfacebandit import InterfaceBandit
+import json
 
 def choose_directory():
     dial = QFileDialog()
@@ -57,4 +57,26 @@ def main():
 
 
 
-main()
+def testBandit():
+    app = QApplication(sys.argv)
+   
+    params = 0#
+
+    with open("recommandations/recommandation_bandit.json", "r") as file :
+        js = json.load(file)
+    
+    blocks = js["blocks"]
+
+    params = []
+    for block in blocks:
+        if block["block_type"] == "bandit":
+            params.append(block["block_content"]["bras"])
+
+
+    bandito = InterfaceBandit(params[0])
+    bandito.show()
+
+    sys.exit(app.exec())
+
+#main()
+testBandit()

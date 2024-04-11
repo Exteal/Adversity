@@ -7,7 +7,7 @@ from terminal import Terminal
 from time import perf_counter as pc
 import csv
 
-class Interface(QMainWindow):
+class InterfaceRecommandation(QMainWindow):
     def __init__(self, log_file):
         super().__init__()
         writer = csv.DictWriter(log_file, fieldnames=["time",  "cursor_x", "cursor_y", "event", "widget","terminal_directory", "terminal_input"])
@@ -153,10 +153,13 @@ class Interface(QMainWindow):
         self.triggering_widget = ""
 
 
+    def on_close_interface(self):
+        self.log_file.close()
+        
 def interface_init():
     #app = QApplication(args)
     file =  open("log.csv", "w", newline='')
-    interface = Interface(file)
+    interface = InterfaceRecommandation(file)
         #interface.show()
         #sys.exit(app.exec())
     
