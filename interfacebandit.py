@@ -19,35 +19,35 @@ class InterfaceBandit(QMainWindow):
         self.setCentralWidget(central_widget)
         main_layout = QHBoxLayout()
 
-        left = BanditWidget(leftArm["rewards"], leftArm["a priori"])
-        left.banditClickedEmitter.custom_signal.connect(lambda: self.onclicked(left, right, scoreWidget))
+        self.left = BanditWidget(leftArm["rewards"], leftArm["a priori"])
+        self.left.banditClickedEmitter.custom_signal.connect(lambda: self.onclicked())
 
 
-        right = BanditWidget(rightArm["rewards"], rightArm["a priori"])
+        self.right = BanditWidget(rightArm["rewards"], rightArm["a priori"])
 
-        right.banditClickedEmitter.custom_signal.connect(lambda: self.onclicked(left, right, scoreWidget))
+        self.right.banditClickedEmitter.custom_signal.connect(lambda: self.onclicked())
 
 
-        score = left.score + right.score
-        scoreWidget = QTextEdit(self)
-        scoreWidget.setReadOnly(True)
-        scoreWidget.setText("Score : " + str(score))
+        score = self.left.score + self.right.score
+        self.scoreWidget = QTextEdit(self)
+        self.scoreWidget.setReadOnly(True)
+        self.scoreWidget.setText("Score : " + str(score))
 
 
         center_layout = QHBoxLayout()
         
-        center_layout.addWidget(left)
-        center_layout.addWidget(scoreWidget)
-        center_layout.addWidget(right)
+        center_layout.addWidget(self.left)
+        center_layout.addWidget(self.scoreWidget)
+        center_layout.addWidget(self.right)
 
         main_layout.addLayout(center_layout)
         central_widget.setLayout(main_layout)
 
 
-    def onclicked(self, left, right, scoreWidget):
-        score = left.score + right.score
-        scoreWidget.setText("Score : " + str(score))
+    def onclicked(self):
+        score = self.left.score + self.right.score
+        self.scoreWidget.setText("Score : " + str(score))
 
-        left.banditClickedReceiver.custom_signal.emit()
-        right.banditClickedReceiver.custom_signal.emit()
+        self.left.banditClickedReceiver.custom_signal.emit()
+        self.right.banditClickedReceiver.custom_signal.emit()
 
