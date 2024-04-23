@@ -37,10 +37,20 @@ class BanditWidget(QWidget):
     def emitClicked(self):
         self.score = self.score + self.rewards[0]
         self.banditClickedEmitter.custom_signal.emit()
+        
 
     def receiveClicked(self):
         print(self.rewards)
+        self.apriori = str(self.rewards[0]) + "\n" + self.apriori
         self.rewards.pop(0)
+        self.aprioriWidget.setText(self.apriori)
+        
+        if len(self.rewards) == 0:
+            self.button.setEnabled(False)
+            #self.aprioriWidget.setText("Fin de la partie")
+            self.aprioriWidget.setDisabled(True)
+            self.button.setDisabled(True)
+            
 
     #def painEvent(self, event):
 
