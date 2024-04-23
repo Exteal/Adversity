@@ -46,7 +46,7 @@ class Worker(QObject):
 
 class RecommandationWidget(QWidget):
     def __init__(self, recommandation_list):
-        super().__init__(self)
+        super().__init__()
         self.recommandation_list = recommandation_list
         self.recommandation = self.recommandation_list.pop(0)
         self.revealed = False
@@ -84,10 +84,16 @@ class RecommandationWidget(QWidget):
             
 
     def initProgress(self):
-        maximum = self.recommandation.timeout / 1000
+        maximum = int(self.recommandation.timeout / 1000)
 
         self.progress.setRange(0, maximum)
         self.progress.setValue(0)
+        self.progress.setGeometry(0, 0, self.size().width(), 30)
+        self.progress.setAccessibleName("Chargement...") 
+        label = QLabel("Chargement...", self.progress)
+        label.setGeometry(self.size().width() // 2 - 50, 10, 100, 20)
+        label.setStyleSheet("color: black")
+                
 
         self.progress.show()
         
