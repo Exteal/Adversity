@@ -1,9 +1,10 @@
 from PyQt5.QtGui import QKeyEvent, QMouseEvent, QCursor
-from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QTextEdit, QSpacerItem, QSizePolicy
+from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QTextEdit, QSpacerItem, QSizePolicy, QDialog, QFileDialog, QPushButton
 from PyQt5.QtCore import QTimer, Qt
 
 from menu import Menu
 from terminal import Terminal
+from questionnaire import QuestionnaireWidget
 from time import perf_counter as pc
 import csv
 
@@ -52,6 +53,12 @@ class InterfaceRecommandation(QMainWindow):
         
         self.term = Terminal()
         center_layout.addWidget(self.term)
+        
+        
+        # Ajoutez un bouton pour afficher le questionnaire
+        questionnaire_button = QPushButton("Répondre au questionnaire")
+        questionnaire_button.clicked.connect(self.showQuestionnaire)
+        center_layout.addWidget(questionnaire_button)
         
         
         # Créer un layout horizontal pour le côté droit de l'interface
@@ -153,6 +160,21 @@ class InterfaceRecommandation(QMainWindow):
         self.triggering_widget = ""
 
 
+    def showQuestionnaire(self):
+        # Créez une boîte de dialogue modale pour afficher le questionnaire
+        dialog = QDialog(self)
+        dialog.setWindowTitle("Questionnaire")
+        dialog.setModal(True)
+
+        # Créez le widget du questionnaire et ajoutez-le à la boîte de dialogue
+        questionnaire_widget = QuestionnaireWidget()
+        dialog_layout = QVBoxLayout()
+        dialog_layout.addWidget(questionnaire_widget)
+        dialog.setLayout(dialog_layout)
+
+        # Affichez la boîte de dialogue modale
+        dialog.exec_()
+        
     def on_close_interface(self):
         self.log_file.close()
         
