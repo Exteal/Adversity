@@ -38,7 +38,8 @@ class InterfaceRecommandation(QMainWindow):
         # Créer le widget principal
         central_widget = QWidget(self)
         self.setCentralWidget(central_widget)
-
+        self.setMouseTracking(True)
+        central_widget.setMouseTracking(True)
         # Créer un layout horizontal pour le widget principal
         main_layout = QHBoxLayout()
         # Créer un layout vertical pour le centre de l'interface
