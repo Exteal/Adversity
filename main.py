@@ -3,7 +3,7 @@ from parameters import ParametersWindow
 import sys
 from PyQt5.QtWidgets import *
 from recommandation import RecommandationWidget
-from interfacebandit import InterfaceBandit
+from interfaceBandit2 import InterfaceBandit
 import json
 
 def choose_directory():
