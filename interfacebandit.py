@@ -1,7 +1,15 @@
 from PyQt5.QtWidgets import QMainWindow, QWidget, QHBoxLayout, QTextEdit
+from PyQt5.QtCore import QObject, pyqtSignal
 
 from bandit import BanditWidget
 
+
+
+class BanditFinishedEmitter(QObject):
+    custom_signal = pyqtSignal()
+
+class BanditFinishedEmitter(QObject):
+    custom_signal = pyqtSignal()
 
 class InterfaceBandit(QMainWindow):
     def __init__(self, bras):
@@ -13,19 +21,24 @@ class InterfaceBandit(QMainWindow):
         else :
             self.initUi(bras[1], bras[0])
         
-    
+  
     def initUi(self, leftArm, rightArm):
         central_widget = QWidget(self)
         self.setCentralWidget(central_widget)
         main_layout = QHBoxLayout()
 
+        self.banditFinishedEmitter = BanditFinishedEmitter()
+
+
         self.left = BanditWidget(leftArm["rewards"], leftArm["a priori"])
         self.left.banditClickedEmitter.custom_signal.connect(lambda: self.onclicked())
+        self.left.banditFinishedEmitter.custom_signal.connect(lambda : self.banditFinishedEmitter.custom_signal.emit())
 
 
         self.right = BanditWidget(rightArm["rewards"], rightArm["a priori"])
 
         self.right.banditClickedEmitter.custom_signal.connect(lambda: self.onclicked())
+        self.right.banditFinishedEmitter.custom_signal.connect(lambda : self.banditFinishedEmitter.custom_signal.emit())
 
 
         score = self.left.score + self.right.score

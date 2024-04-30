@@ -2,14 +2,20 @@ from PyQt5 import QtCore
 from PyQt5.QtWidgets import QMainWindow, QWidget, QTextEdit, QPushButton, QHBoxLayout, QFrame, QApplication, QLabel, QVBoxLayout
 from PyQt5.QtGui import QColor
 from PyQt5.QtCore import QObject, pyqtSignal, Qt
-import sys
 
 from bandit2 import BanditWidget
+
+
+class BanditFinishedEmitter(QObject):
+    custom_signal = pyqtSignal()
+
+
+
 
 class InterfaceBandit(QMainWindow):
     def __init__(self, bras):
         super().__init__()
-        
+        self.log_file =  open("log_recommandations.csv", "w", newline='')
         if bras[0]["side"] == "gauche":
             self.initUi(bras[0], bras[1])
         
@@ -19,6 +25,8 @@ class InterfaceBandit(QMainWindow):
 
     def initUi(self, leftArm, rightArm):
         
+        self.banditFinishedEmitter = BanditFinishedEmitter()
+
         self.tentatives = leftArm["rewards"].__len__()
         # attributs de la fenetre principale
         self.showMaximized()
@@ -50,8 +58,8 @@ class InterfaceBandit(QMainWindow):
         layout.addWidget(self.mRight)
         central_widget.setLayout(layout)
         
-        self.mLeft.banditClickedEmitter.custom_signal.connect(lambda: self.onclicked())
-        self.mRight.banditClickedEmitter.custom_signal.connect(lambda: self.onclicked())
+        self.mLeft.banditClickedEmitter.custom_signal.connect(lambda: self.onclickedSpin())
+        self.mRight.banditClickedEmitter.custom_signal.connect(lambda: self.onclickedSpin())
         
         #self.score = self.mLeft.score + self.mRight.score
 
@@ -60,7 +68,15 @@ class InterfaceBandit(QMainWindow):
     #         self.mLeft.spin()
     #     if e.key() == QtCore.Qt.Key_Right and not self.mRight.spining and not self.mRight.spining:
     #         self.mRight.spin()
-    def onclicked(self):
+    
+    
+    
+    def onClickedEnd(self, event):
+        self.banditFinishedEmitter.custom_signal.emit()
+        self.log_file.close()
+    
+    def onclickedSpin(self):
+       
         score = self.mLeft.score + self.mRight.score
         self.tentatives -= 1
         self.scoreWidget.setText("Score Total : " + str(score))
@@ -70,13 +86,10 @@ class InterfaceBandit(QMainWindow):
             self.mLeft.ui.pushButton.setDisabled(True)
             self.mRight.ui.pushButton.setEnabled(False)
             self.mRight.ui.pushButton.setDisabled(True)
+
+            wid = self.centralWidget()
+            wid.mouseReleaseEvent = self.onClickedEnd
+
             
-        print("clicked")
         self.mLeft.banditClickedReceiver.custom_signal.emit()
         self.mRight.banditClickedReceiver.custom_signal.emit()
-
-# if __name__ == '__main__':
-#     app = QApplication(sys.argv)
-#     w = InterfaceBandit()
-#     w.show()
-#     app.exec_()

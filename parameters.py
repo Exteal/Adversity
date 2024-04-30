@@ -6,8 +6,11 @@ import json
 import os
 import glob
 from recommandation import Recommandation
+from enum import StrEnum
 
-
+class Types(StrEnum):
+    RECOMMANDATION = "recommandation"
+    BANDIT = "bandit"  
 
 
 class ParametersSelectedEmitter(QObject):
@@ -30,10 +33,15 @@ class ParametersWindow(QMainWindow):
         self.json_data = self.find_participants_json(recommandations_directory_path)
         
         self.names_widget = self.create_names_widget()
-        self.blocks_widget = QListWidget()
-        self.names_widget.itemSelectionChanged.connect(lambda: self.change_block_items())
+        
+        #self.blocks_widget = QListWidget()
+        
+        self.names_widget.itemSelectionChanged.connect(lambda: self.emi())
 
-        self.blocks_widget.itemSelectionChanged.connect(lambda:  self.emi())
+
+        #self.names_widget.itemSelectionChanged.connect(lambda: self.change_block_items())
+
+        #self.blocks_widget.itemSelectionChanged.connect(lambda:  self.emi())
                                                         #self.return_recommandations())
         #self.names_widget.show()
         #self.blocks_widget.show()
@@ -41,7 +49,7 @@ class ParametersWindow(QMainWindow):
 
 
         main_layout.addWidget(self.names_widget)
-        main_layout.addWidget(self.blocks_widget)
+       # main_layout.addWidget(self.blocks_widget)
 
         central_widget.setLayout(main_layout)
 
@@ -54,8 +62,10 @@ class ParametersWindow(QMainWindow):
     
     
     def emi(self):
-        recoms = self.return_recommandations()
-        self.parameters_selected_emitter.custom_signal.emit(recoms)
+        #recoms = self.return_recommandations()                
+        tuples = self.return_types_and_contents()
+
+        self.parameters_selected_emitter.custom_signal.emit(tuples)
 
 
     def change_block_items(self):
@@ -68,6 +78,24 @@ class ParametersWindow(QMainWindow):
                 for block in blocks:
                     block_name = block["block_name"]
                     QListWidgetItem(block_name, self.blocks_widget)
+
+
+    def return_types_and_contents(self):
+        name_selected = self.names_widget.currentItem().text()
+        for data in self.json_data:
+            if data["participant"] == name_selected:
+                blocks = data["blocks"]
+                
+                
+                ret = []
+                for block in blocks:
+                    bType = block["block_type"]
+                    if bType == Types.BANDIT:
+                        ret.append((Types.BANDIT, block["block_content"]))
+                    elif bType == Types.RECOMMANDATION:
+                        ret.append((Types.RECOMMANDATION, self.create_recommandation_list(block["block_content"])))
+                
+                return ret
 
 
     def return_recommandations(self):
