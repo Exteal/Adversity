@@ -1,5 +1,5 @@
 from interface import interface_init
-from parameters import ParametersWindow
+from parameters import ParametersWindow, Types
 import sys
 from PyQt5.QtWidgets import *
 from recommandation import RecommandationWidget
@@ -16,14 +16,34 @@ def choose_directory():
     return path
 
 
-def load_interface(parameters, interface, stack):
-    recoms = parameters.return_recommandations()
-    
-    interface.load_recommandations(RecommandationWidget(recoms))
-    interface.start_interface()
-    stack.setCurrentIndex(1)
 
-    stack.update()
+
+def nextStack(stack):
+    stack.setCurrentIndex(stack.currentIndex() + 1)
+
+def load_pages(parameters, interface, stack):
+    tuples = parameters.return_types_and_contents()
+    
+    for typ, content in tuples:
+        if typ == Types.RECOMMANDATION:
+ 
+            interface.load_recommandations(RecommandationWidget(content))
+            interface.start_interface()
+
+            #interface.interfaceFinishedEmitter.custom_signal.connect(lambda : stack.setCurrentIndex(stack.currentIndex() + 1))
+
+            stack.addWidget(interface)
+            stack.update()
+
+        if typ == Types.BANDIT:
+            bandito = InterfaceBandit(content["bras"])
+            bandito.banditFinishedEmitter.custom_signal.connect(lambda : nextStack(stack))
+            stack.addWidget(bandito)
+            stack.update()
+
+
+    stack.setCurrentIndex(stack.currentIndex() + 1) 
+
 
 
 
@@ -39,11 +59,10 @@ def main():
     interface = interface_init()
     stack = QStackedWidget()
 
-    parameters.parameters_selected_emitter.custom_signal.connect(lambda : load_interface(parameters, interface, stack))
 
+    parameters.parameters_selected_emitter.custom_signal.connect(lambda : load_pages(parameters, interface, stack))
     
     stack.addWidget(parameters)
-    stack.addWidget(interface)
 
     main_layout = QVBoxLayout()
     main_layout.addWidget(stack)
@@ -78,5 +97,5 @@ def testBandit():
 
     sys.exit(app.exec())
 
-#main()
-testBandit()
+main()
+#testBandit()

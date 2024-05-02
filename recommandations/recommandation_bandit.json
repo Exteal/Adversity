@@ -9,13 +9,13 @@
                     "bras" : [
                         {
                             "side" : "gauche",
-                            "rewards" : [2,2,5,1,0,7,9,1,-4,0],
+                            "rewards" : [2],
                             "a priori" : "environ 20 points"
                         },
 
                         {
                             "side" : "droit",
-                            "rewards" : [-10,-10,-10,-10,60,-10,-10,80,90,-100],
+                            "rewards" : [-10],
                             "a priori" : "environ 100 points"
                         }
                 

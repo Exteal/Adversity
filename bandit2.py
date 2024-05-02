@@ -18,7 +18,7 @@ class BanditWidget(QFrame):
         self.rewards = rewards
         self.apriori = apriori
         self.score = 0
-
+        
         self.banditClickedEmitter = BanditClickedEmitter()
         self.banditClickedReceiver = BanditClickedReceiver()
 
@@ -44,7 +44,6 @@ class BanditWidget(QFrame):
             QApplication.processEvents()
 
         self.cpt += 1
-        print(str(self.rewards))
         self.score = self.score + self.rewards[0]
         self.ui.reward.setProperty("intValue", self.rewards[0])
         self.ui.score.setProperty("intValue", self.score)
@@ -63,13 +62,12 @@ class BanditWidget(QFrame):
         
 
     def receiveClicked(self):
-        print(self.rewards)
-        #self.apriori = str(self.rewards[0]) + "\n" + self.apriori
+        #elf.apriori = str(self.rewards[0]) + "\n" + self.apriori
         self.rewards.pop(0)
         
-        # if len(self.rewards) == 0:
-        #     self.ui.pushButton.setEnabled(False)
-        #     self.ui.pushButton.setDisabled(True)
-            #self.aprioriWidget.setText("Fin de la partie")
-            
+        if len(self.rewards) == 0:
+            self.ui.pushButton.setEnabled(False)
+            self.ui.pushButton.setDisabled(True)
+           # self.aprioriWidget.setText("Fin de la partie")
+                
 

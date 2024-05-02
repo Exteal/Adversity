@@ -1,12 +1,15 @@
 from PyQt5.QtGui import QKeyEvent, QMouseEvent, QCursor
 from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QTextEdit, QSpacerItem, QSizePolicy, QDialog, QFileDialog, QPushButton
-from PyQt5.QtCore import QTimer, Qt
+from PyQt5.QtCore import QTimer, Qt, pyqtSignal, QObject
 
 from menu import Menu
 from terminal import Terminal
 from questionnaire import QuestionnaireWidget
 from time import perf_counter as pc
 import csv
+
+class interfaceFinishedEmitter(QObject):
+    custom_signal = pyqtSignal()
 
 class InterfaceRecommandation(QMainWindow):
     def __init__(self, log_file):
@@ -180,11 +183,7 @@ class InterfaceRecommandation(QMainWindow):
         self.log_file.close()
         
 def interface_init():
-    #app = QApplication(args)
-    file =  open("log.csv", "w", newline='')
-    interface = InterfaceRecommandation(file)
-        #interface.show()
-        #sys.exit(app.exec())
-    
+    file =  open("log_recommandations.csv", "w", newline='')
+    interface = InterfaceRecommandation(file)    
     return interface
     
