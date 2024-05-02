@@ -3,6 +3,7 @@
     "blocks" : [
                     {
                         "block_name" : "BLBLBLOCK",
+                        "block_type" : "recommandation",
                         "block_content" : [
                             {
                             "header" : "Rec",

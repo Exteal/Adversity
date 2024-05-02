@@ -3,6 +3,7 @@
     "blocks" : [
                     {
                         "block_name" : "block1",
+                        "block_type" : "recommandation",
                         "block_content" : [
                             {
                             "header" : "recommandation 1.1",
@@ -32,6 +33,7 @@
 
                     {
                         "block_name" : "block2",
+                        "block_type" : "recommandation",
                         "block_content" : [
                             {
                             "header" : "recommandation 2.1",

@@ -5,6 +5,8 @@ from PyQt5.QtGui import *
 
 from PyQt5.QtCore import Qt
 
+from Utils import NextPageEmitter
+
 class Recommandation():
     def __init__(self, header, body, timeout):
         self.header = header
@@ -12,7 +14,6 @@ class Recommandation():
         self.timeout = timeout
     def __repr__(self) -> str:
         return str(self.header) + " : " + str(self.body)
-
 
 
 
@@ -55,6 +56,7 @@ class RecommandationWidget(QWidget):
         self.color = QColor("white")
         self.progress = QProgressBar(self)
         self.progress.hide()
+        self.nextPage = NextPageEmitter()
 
 
     def log_to_interface(self, event, widget=""):
@@ -124,8 +126,9 @@ class RecommandationWidget(QWidget):
 
     def processNextRecommandation(self) :
         if not self.recommandation_list:
-            self.deleteWidget()
+            self.nextPage.custom_signal.emit()
             return
+        
         self.progress.hide()
         self.recommandation = self.recommandation_list.pop(0)
         self.content = self.recommandation.header

@@ -6,8 +6,7 @@ from PyQt5.QtCore import QObject, pyqtSignal, Qt
 from bandit2 import BanditWidget
 
 
-class BanditFinishedEmitter(QObject):
-    custom_signal = pyqtSignal()
+from Utils import NextPageEmitter
 
 
 
@@ -25,7 +24,7 @@ class InterfaceBandit(QMainWindow):
 
     def initUi(self, leftArm, rightArm):
         
-        self.banditFinishedEmitter = BanditFinishedEmitter()
+        self.nextPage = NextPageEmitter()
 
         self.tentatives = leftArm["rewards"].__len__()
         # attributs de la fenetre principale
@@ -94,7 +93,7 @@ class InterfaceBandit(QMainWindow):
     
     
     def onClickedEnd(self, event):
-        self.banditFinishedEmitter.custom_signal.emit()
+        self.nextPage.custom_signal.emit()
         self.log_file.close()
     
     def onclickedSpin(self):

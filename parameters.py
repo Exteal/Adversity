@@ -6,11 +6,8 @@ import json
 import os
 import glob
 from recommandation import Recommandation
-from enum import StrEnum
+from Utils import Types
 
-class Types(StrEnum):
-    RECOMMANDATION = "recommandation"
-    BANDIT = "bandit"  
 
 
 class ParametersSelectedEmitter(QObject):
@@ -26,7 +23,8 @@ class ParametersWindow(QMainWindow):
         self.setCentralWidget(central_widget)
 
         # Créer un layout horizontal pour le widget principal
-        main_layout = QHBoxLayout()
+        
+        main_layout = QVBoxLayout()
 
 
         #directory_path = self.choose_directory()
@@ -46,8 +44,7 @@ class ParametersWindow(QMainWindow):
         #self.names_widget.show()
         #self.blocks_widget.show()
 
-
-
+       # main_layout.addWidget(explain)
         main_layout.addWidget(self.names_widget)
        # main_layout.addWidget(self.blocks_widget)
 
@@ -63,7 +60,7 @@ class ParametersWindow(QMainWindow):
     
     def emi(self):
         #recoms = self.return_recommandations()                
-        tuples = self.return_types_and_contents()
+        tuples = self.return_block_infos()
 
         self.parameters_selected_emitter.custom_signal.emit(tuples)
 
@@ -80,20 +77,25 @@ class ParametersWindow(QMainWindow):
                     QListWidgetItem(block_name, self.blocks_widget)
 
 
-    def return_types_and_contents(self):
+    def return_block_infos(self):
+
+        ret = []
         name_selected = self.names_widget.currentItem().text()
         for data in self.json_data:
             if data["participant"] == name_selected:
                 blocks = data["blocks"]
                 
-                
-                ret = []
                 for block in blocks:
                     bType = block["block_type"]
                     if bType == Types.BANDIT:
-                        ret.append((Types.BANDIT, block["block_content"]))
+                        data = {"name" : block["block_name"], "type" : Types.BANDIT, "content" : block["block_content"]}
+                        #ret.append((Types.BANDIT, block["block_content"]))
+                        ret.append(data)
                     elif bType == Types.RECOMMANDATION:
-                        ret.append((Types.RECOMMANDATION, self.create_recommandation_list(block["block_content"])))
+                        #ret.append((Types.RECOMMANDATION, self.create_recommandation_list(block["block_content"])))
+                        data = {"name" : block["block_name"], "type" : Types.RECOMMANDATION, "content" : self.create_recommandation_list(block["block_content"])}
+                        ret.append(data)
+
                 
                 return ret
 

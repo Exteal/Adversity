@@ -182,8 +182,8 @@ class InterfaceRecommandation(QMainWindow):
     def on_close_interface(self):
         self.log_file.close()
         
-def interface_init():
-    file =  open("log_recommandations.csv", "w", newline='')
+def interface_init(block_name):
+    file =  open("log_recommandations_" + block_name +".csv", "w", newline='')
     interface = InterfaceRecommandation(file)    
     return interface
     

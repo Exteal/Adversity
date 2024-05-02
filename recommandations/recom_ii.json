@@ -3,6 +3,7 @@
     "blocks" : [
                     {
                         "block_name" : "bluck",
+                        "block_type" : "recommandation",
                         "block_content" : [
                             {
                             "header" : "Rec",
@@ -14,6 +15,7 @@
 
                     {
                         "block_name" : "CECI EST UN BLOCK",
+                        "block_type" : "recommandation",
                         "block_content" : [
                             {
                             "header" : "REC",
@@ -31,6 +33,7 @@
 
                     {
                         "block_name" : "BLOCK DE FIN",
+                        "block_type" : "recommandation",
                         "block_content" : [
                             {
                             "header" : "Rec",

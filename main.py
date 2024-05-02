@@ -1,3 +1,4 @@
+from EndPageWidget import EndPageWidget
 from interface import interface_init
 from parameters import ParametersWindow, Types
 import sys
@@ -5,6 +6,9 @@ from PyQt5.QtWidgets import *
 from recommandation import RecommandationWidget
 from interfaceBandit2 import InterfaceBandit
 import json
+from WaitScreen import WaitingScreen
+
+
 
 def choose_directory():
     dial = QFileDialog()
@@ -21,27 +25,31 @@ def choose_directory():
 def nextStack(stack):
     stack.setCurrentIndex(stack.currentIndex() + 1)
 
-def load_pages(parameters, interface, stack):
-    tuples = parameters.return_types_and_contents()
-    
-    for typ, content in tuples:
-        if typ == Types.RECOMMANDATION:
- 
-            interface.load_recommandations(RecommandationWidget(content))
+def load_pages(block_infos, stack):
+    for block in reversed(block_infos):
+        if block["type"] == Types.RECOMMANDATION:
+
+            interface = interface_init(block["name"])
+
+            recoms = RecommandationWidget(block["content"])
+            
+            interface.load_recommandations(recoms)
             interface.start_interface()
 
-            #interface.interfaceFinishedEmitter.custom_signal.connect(lambda : stack.setCurrentIndex(stack.currentIndex() + 1))
+            recoms.nextPage.custom_signal.connect(lambda :nextStack(stack))
 
-            stack.addWidget(interface)
+            stack.insertWidget(1, interface)
             stack.update()
 
-        if typ == Types.BANDIT:
-            bandito = InterfaceBandit(content["bras"])
-            bandito.banditFinishedEmitter.custom_signal.connect(lambda : nextStack(stack))
-            stack.addWidget(bandito)
+        if block["type"] == Types.BANDIT:
+            bandito = InterfaceBandit(block["content"]["bras"])
+            bandito.nextPage.custom_signal.connect(lambda : nextStack(stack))
+            stack.insertWidget(1, bandito)
+           # stack.addWidget(WaitingScreen())
             stack.update()
 
 
+    stack.addWidget(EndPageWidget(stack))
     stack.setCurrentIndex(stack.currentIndex() + 1) 
 
 
@@ -56,11 +64,10 @@ def main():
     
 
     parameters = ParametersWindow(recommandations_path)
-    interface = interface_init()
     stack = QStackedWidget()
 
 
-    parameters.parameters_selected_emitter.custom_signal.connect(lambda : load_pages(parameters, interface, stack))
+    parameters.parameters_selected_emitter.custom_signal.connect(lambda block_infos: load_pages(block_infos, stack))
     
     stack.addWidget(parameters)
 
@@ -79,7 +86,7 @@ def main():
 def testBandit():
     app = QApplication(sys.argv)
    
-    params = 0#
+    params = 0
 
     with open("recommandations/recommandation_bandit.json", "r") as file :
         js = json.load(file)
@@ -98,4 +105,3 @@ def testBandit():
     sys.exit(app.exec())
 
 main()
-#testBandit()
