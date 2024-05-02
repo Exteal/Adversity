@@ -36,7 +36,7 @@ class BanditWidget(QFrame):
     def spin(self):
         self.spining = True
         self.ui.pushButton.setDisabled(True)
-        for i in range(0, 30):
+        for i in range(0, 20):
             time.sleep((50 + 25 * i) / 10000)
 
             self.ui.reward.setProperty("intValue", random.randint(0, 9999))

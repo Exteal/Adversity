@@ -22,34 +22,56 @@ class InterfaceBandit(QMainWindow):
         self.tentatives = leftArm["rewards"].__len__()
         # attributs de la fenetre principale
         self.showMaximized()
-
+        #self.setGeometry(0, 0, 800, 600)
         self.setWindowTitle('Slot Machine')
         
         central_widget = QWidget(self)
         self.setCentralWidget(central_widget)
+        layout_all = QVBoxLayout()
+        
         layout = QHBoxLayout()
         ##############################
         self.mLeft = BanditWidget(leftArm["rewards"], leftArm["a priori"])
         ###############
         center_layout = QVBoxLayout()
+        center_layout.setAlignment(Qt.AlignHCenter)
         ###############
         self.nb_tentatives = QLabel(self)
         self.nb_tentatives.setAlignment(Qt.AlignCenter)
+        font = self.nb_tentatives.font()
+        font.setPointSize(20)
+        self.nb_tentatives.setFont(font)
         self.nb_tentatives.setText("Nombre de tentatives restantes : " + str(self.tentatives))
         #####
         self.scoreWidget = QLabel(self)
         self.scoreWidget.setAlignment(Qt.AlignCenter)
+        fontS = self.scoreWidget.font()
+        fontS.setPointSize(40)
+        self.scoreWidget.setFont(fontS)
         self.scoreWidget.setText("Score Total : 0")
         ###############
         self.mRight = BanditWidget(rightArm["rewards"], rightArm["a priori"])
         ##############################
-        center_layout.addWidget(self.scoreWidget)
         center_layout.addWidget(self.nb_tentatives)
+        center_layout.addWidget(self.scoreWidget)
         layout.addWidget(self.mLeft)
         layout.addLayout(center_layout)
         layout.addWidget(self.mRight)
-        central_widget.setLayout(layout)
+        layout.setAlignment(Qt.AlignCenter)
         
+        objectif = QLabel(self)
+        objectif.setAlignment(Qt.AlignCenter)
+        font = objectif.font()
+        font.setPointSize(20)
+        font.setBold(True)
+        font.setUnderline(True)
+        objectif.setFont(font)
+        objectif.setStyleSheet("QLabel { color : #EE0000; }")
+        objectif.setText("Objectif : Vous devez choisir le bras qui rapporte le plus de points en " + str(self.tentatives) + " tentatives")
+        layout_all.addWidget(objectif)
+        layout_all.addLayout(layout)
+        central_widget.setLayout(layout_all)
+
         self.mLeft.banditClickedEmitter.custom_signal.connect(lambda: self.onclicked())
         self.mRight.banditClickedEmitter.custom_signal.connect(lambda: self.onclicked())
         
