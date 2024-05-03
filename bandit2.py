@@ -4,6 +4,7 @@ from PyQt5.QtCore import QObject, pyqtSignal
 import WidgetSlotMachine as SlotM
 import time
 import random
+import csv 
 
 class BanditClickedEmitter(QObject):
     custom_signal = pyqtSignal()
@@ -13,12 +14,13 @@ class BanditClickedReceiver(QObject):
 
 
 class BanditWidget(QFrame):
-    def __init__(self, rewards, apriori):
+    def __init__(self, rewards, apriori, log_file, direction):
         super().__init__()
+        self.direction = direction
         self.rewards = rewards
         self.apriori = apriori
         self.score = 0
-        
+        self.log_file = log_file
         self.banditClickedEmitter = BanditClickedEmitter()
         self.banditClickedReceiver = BanditClickedReceiver()
 
@@ -34,6 +36,13 @@ class BanditWidget(QFrame):
         self.ui.pushButton.released.connect(self.spin)
 
     def spin(self):
+        writer = csv.DictWriter(self.log_file, fieldnames=["choice"])
+
+        writer.writerow({
+            "choice" : self.direction
+        })
+        self.log_file.flush()
+
         self.spining = True
         self.ui.pushButton.setDisabled(True)
         for i in range(0, 20):

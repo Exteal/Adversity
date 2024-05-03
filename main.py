@@ -42,7 +42,7 @@ def load_pages(block_infos, stack):
             stack.update()
 
         if block["type"] == Types.BANDIT:
-            bandito = InterfaceBandit(block["content"]["bras"])
+            bandito = InterfaceBandit(block["content"]["bras"], block["name"])
             bandito.nextPage.custom_signal.connect(lambda : nextStack(stack))
             stack.insertWidget(1, bandito)
            # stack.addWidget(WaitingScreen())

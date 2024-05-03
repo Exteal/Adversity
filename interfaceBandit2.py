@@ -7,14 +7,17 @@ from bandit2 import BanditWidget
 
 
 from Utils import NextPageEmitter
-
+import csv
 
 
 
 class InterfaceBandit(QMainWindow):
-    def __init__(self, bras):
+    def __init__(self, bras, name):
         super().__init__()
-        self.log_file =  open("log_recommandations.csv", "w", newline='')
+        self.log_file =  open("log_recommandations_" + name + ".csv", "w", newline='')
+
+        writer = csv.DictWriter(self.log_file, fieldnames=["choice"])
+        writer.writeheader()
         if bras[0]["side"] == "gauche":
             self.initUi(bras[0], bras[1])
         
@@ -38,7 +41,7 @@ class InterfaceBandit(QMainWindow):
         
         layout = QHBoxLayout()
         ##############################
-        self.mLeft = BanditWidget(leftArm["rewards"], leftArm["a priori"])
+        self.mLeft = BanditWidget(leftArm["rewards"], leftArm["a priori"], self.log_file, "left")
         ###############
         center_layout = QVBoxLayout()
         center_layout.setAlignment(Qt.AlignHCenter)
@@ -57,7 +60,7 @@ class InterfaceBandit(QMainWindow):
         self.scoreWidget.setFont(fontS)
         self.scoreWidget.setText("Score Total : 0")
         ###############
-        self.mRight = BanditWidget(rightArm["rewards"], rightArm["a priori"])
+        self.mRight = BanditWidget(rightArm["rewards"], rightArm["a priori"], self.log_file, "right")
         ##############################
         center_layout.addWidget(self.nb_tentatives)
         center_layout.addWidget(self.scoreWidget)
