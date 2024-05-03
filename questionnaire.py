@@ -2,12 +2,16 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QSlider, QLabel, QPushButton, QApplication
 from DoubleSlider import QRangeSlider
 
+import csv
+
 class QuestionnaireWidget(QWidget):
-    def __init__(self):
+    def __init__(self, log_quest):
         super().__init__()
+        self.log_quest = log_quest
         self.initUI()
 
     def initUI(self):
+
         layout = QVBoxLayout()
 
         # Question 1: Précision de la recommandation
@@ -86,8 +90,21 @@ class QuestionnaireWidget(QWidget):
         slider.valueChanged.connect(lambda value: slider.setSliderPosition((value // interval) * interval))
 
     def submitAnswers(self):
-        # TODO: Stocker les réponses dans un fichier
-        pass
+
+        writer = csv.DictWriter(self.log_quest, fieldnames=["precision_min", "precision_max", "temps_gagne_min", "temps_gagne_max", "temps_perdu_min", "temps_perdu_max"])
+        writer.writeheader()
+
+        writer.writerow({
+            "precision_min" : self.slider1.start(),
+            "precision_max" : self.slider1.end(),
+            "temps_gagne_min" : self.slider2.start(),
+            "temps_gagne_max" :  self.slider2.end(),
+            "temps_perdu_min" :  self.slider3.start(),
+            "temps_perdu_max" :  self.slider3.end()
+        })
+        self.log_quest.flush()
+
+        #self.log_quest.close()
 
 
 if __name__ == '__main__':

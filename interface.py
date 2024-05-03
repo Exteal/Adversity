@@ -12,13 +12,14 @@ class interfaceFinishedEmitter(QObject):
     custom_signal = pyqtSignal()
 
 class InterfaceRecommandation(QMainWindow):
-    def __init__(self, log_file):
+    def __init__(self, log_file, log_quest):
         super().__init__()
         writer = csv.DictWriter(log_file, fieldnames=["time",  "cursor_x", "cursor_y", "event", "widget","terminal_directory", "terminal_input"])
         writer.writeheader()
         self.triggering_widget = None
         self.triggering_event = None
         self.log_file = log_file
+        self.log_quest = log_quest
 
 
     def load_recommandations(self, recommandation_widget):
@@ -171,7 +172,7 @@ class InterfaceRecommandation(QMainWindow):
         dialog.setModal(True)
 
         # Créez le widget du questionnaire et ajoutez-le à la boîte de dialogue
-        questionnaire_widget = QuestionnaireWidget()
+        questionnaire_widget = QuestionnaireWidget(self.log_quest)
         dialog_layout = QVBoxLayout()
         dialog_layout.addWidget(questionnaire_widget)
         dialog.setLayout(dialog_layout)
@@ -184,6 +185,8 @@ class InterfaceRecommandation(QMainWindow):
         
 def interface_init(block_name):
     file =  open("log_recommandations_" + block_name +".csv", "w", newline='')
-    interface = InterfaceRecommandation(file)    
+    quest =  open("log_questionnaire_" + block_name +".csv", "w", newline='')
+
+    interface = InterfaceRecommandation(file, quest)    
     return interface
     
