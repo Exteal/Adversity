@@ -6,7 +6,7 @@ from PyQt5.QtCore import QObject, pyqtSignal, Qt
 from bandit2 import BanditWidget
 
 
-from Utils import NextPageEmitter
+from Utils import NextPageEmitter, WaitWidget
 import csv
 
 
@@ -111,9 +111,13 @@ class InterfaceBandit(QMainWindow):
             self.mRight.ui.pushButton.setEnabled(False)
             self.mRight.ui.pushButton.setDisabled(True)
 
-            wid = self.centralWidget()
-            wid.mouseReleaseEvent = self.onClickedEnd
 
+         
+
+            wait = WaitWidget()
+            wait.showMaximized()
+            wait.mouseReleaseEvent = self.onClickedEnd
+            self.setCentralWidget(wait)
             
         self.mLeft.banditClickedReceiver.custom_signal.emit()
         self.mRight.banditClickedReceiver.custom_signal.emit()
