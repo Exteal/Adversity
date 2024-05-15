@@ -54,11 +54,13 @@ class ParametersWindow(QMainWindow):
         self.setWindowTitle('Experiment parameters')
 
         self.parameters_selected_emitter = ParametersSelectedEmitter()
+        
         # prend toute la taille de l'écran
         #self.showMaximized()
     
     
     def emi(self):
+
         #recoms = self.return_recommandations()                
         tuples = self.return_block_infos()
 
@@ -126,6 +128,29 @@ class ParametersWindow(QMainWindow):
         names = self.list_participants_names()
 
         names_widget = QListWidget()
+
+        names_widget.setStyleSheet("QListWidget"
+                                  "{"
+                                  "border : 2px solid black;"
+                                  "background : lightgreen;"
+                                  "}"
+                                  "QListWidget QScrollBar"
+                                  "{"
+                                  "background : lightblue;"
+                                  "}"
+                                  "QListView::item:selected"
+                                  "{"
+                                  "border : 2px solid black;"
+                                  "background : green;"
+                                  "}"
+                                  "QListView::item"
+                                  "{"
+                                  "border : 1px solid grey;"
+                                  "background : red;"
+                                  "}"
+                                  )
+
+
         for name in names:
             QListWidgetItem(name, names_widget)
         return names_widget
@@ -157,3 +182,10 @@ class ParametersWindow(QMainWindow):
             name = data["participant"]
             names.append(name)
         return names
+    
+    def deselect_all(self):
+        for idx in range(self.names_widget.count()):
+            it = self.names_widget.item(idx)
+            if it.isSelected():
+                it.setSelected(False)
+

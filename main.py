@@ -23,9 +23,11 @@ def choose_directory():
 
 
 def nextStack(stack):
+    print("current = ", stack.currentIndex())
     stack.setCurrentIndex(stack.currentIndex() + 1)
+    print("page ", stack.currentIndex())
 
-def load_pages(block_infos, stack):
+def load_pages(block_infos, stack, parameters):
     for block in reversed(block_infos):
         if block["type"] == Types.RECOMMANDATION:
 
@@ -42,15 +44,13 @@ def load_pages(block_infos, stack):
             stack.update()
 
         if block["type"] == Types.BANDIT:
-            bandito = InterfaceBandit(block["content"]["bras"], block["name"])
+            bandito = InterfaceBandit(block["content"]["bras"], block["name"], block["content"]["chargements_questionnaire"])
             bandito.nextPage.custom_signal.connect(lambda : nextStack(stack))
             stack.insertWidget(1, bandito)
-           # stack.addWidget(WaitingScreen())
             stack.update()
-
-
+        
     stack.addWidget(EndPageWidget(stack))
-    stack.setCurrentIndex(stack.currentIndex() + 1) 
+    nextStack(stack)
 
 
 
@@ -58,16 +58,17 @@ def load_pages(block_infos, stack):
 def main():
     app = QApplication(sys.argv)
    
-    recommandations_path = None
-    while recommandations_path == None:
-        recommandations_path = choose_directory()
     
+    recommandations_path = choose_directory()
+    
+    if recommandations_path == None:
+        sys.exit()
 
     parameters = ParametersWindow(recommandations_path)
     stack = QStackedWidget()
 
 
-    parameters.parameters_selected_emitter.custom_signal.connect(lambda block_infos: load_pages(block_infos, stack))
+    parameters.parameters_selected_emitter.custom_signal.connect(lambda block_infos: load_pages(block_infos, stack, parameters))
     
     stack.addWidget(parameters)
 

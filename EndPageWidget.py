@@ -23,15 +23,13 @@ class EndPageWidget(QMainWindow):
 
 
 def returnParams(stack):
-    print("count = " +str(stack.count()))
-
     for idx in reversed(range(1, stack.count() - 1)):
         print(idx)
         widget = stack.widget(idx)
         stack.removeWidget(widget)
         widget.deleteLater()
     
-    print("count = " +str(stack.count()))
+    stack.widget(0).deselect_all()
     stack.setCurrentIndex(0)
 
 def quitApp():
