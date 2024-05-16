@@ -6,17 +6,26 @@ from PyQt5.QtWidgets import *
 from recommandation import RecommandationWidget
 from interfaceBandit import InterfaceBandit
 
-from Utils import log_directory
+from Utils import log_directory, recommandations_directory
 from os import makedirs, path
 
+
+
 def choose_directory():
+
+    if recommandations_directory:
+        return recommandations_directory
+    
     dial = QFileDialog(caption="Sélectionnez le dossier contenant les fichiers utilisateurs .json")
     dial.setFileMode(QFileDialog.Directory)
     dial.setAcceptMode(QFileDialog.AcceptOpen)
-    path = None
+    recom_path = None
     if dial.exec_():
-        path = dial.selectedFiles()
-    return path
+        recom_path = dial.selectedFiles()
+
+
+
+    return recom_path[0] if len(recom_path) else None
 
 
 

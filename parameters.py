@@ -143,7 +143,7 @@ class ParametersWindow(QMainWindow):
    
     
     def find_participants_json(self, path):
-        json_files = glob.glob(os.path.join(path[0], '*.json'))
+        json_files = glob.glob(os.path.join(path, '*.json'))
         
         json_data = []
         for file in json_files :

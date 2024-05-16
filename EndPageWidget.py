@@ -19,8 +19,8 @@ class EndPageWidget(QMainWindow):
         self.bend = QPushButton("Fermer l'appli")
         self.bend.clicked.connect(lambda : quitApp())
 
-        self.bparams.resize(150, 50)
-        self.bend.resize(150, 50) 
+        self.bparams.setFixedHeight(300)
+        self.bend.setFixedHeight(300) 
 
         self.bparams.setStyleSheet(endPageButtonStyle)
         self.bend.setStyleSheet(endPageButtonStyle)
