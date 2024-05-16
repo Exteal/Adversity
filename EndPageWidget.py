@@ -1,4 +1,5 @@
 from PyQt5.QtWidgets import QMainWindow, QWidget, QPushButton, QHBoxLayout
+from Styles import endPageButtonStyle
 import sys
 
 
@@ -7,7 +8,10 @@ class EndPageWidget(QMainWindow):
         super().__init__()
         central_widget = QWidget(self)
         self.setCentralWidget(central_widget)
-        main_layout = QHBoxLayout()
+
+
+
+        main_layout = QHBoxLayout(central_widget)
 
         self.bparams = QPushButton("Retour sélection participant")
         self.bparams.clicked.connect(lambda : returnParams(stack))
@@ -15,16 +19,20 @@ class EndPageWidget(QMainWindow):
         self.bend = QPushButton("Fermer l'appli")
         self.bend.clicked.connect(lambda : quitApp())
 
+        self.bparams.resize(150, 50)
+        self.bend.resize(150, 50) 
+
+        self.bparams.setStyleSheet(endPageButtonStyle)
+        self.bend.setStyleSheet(endPageButtonStyle)
+
         main_layout.addWidget(self.bparams)
         main_layout.addWidget(self.bend)
 
-        central_widget.setLayout(main_layout)    
 
 
 
 def returnParams(stack):
     for idx in reversed(range(1, stack.count() - 1)):
-        print(idx)
         widget = stack.widget(idx)
         stack.removeWidget(widget)
         widget.deleteLater()

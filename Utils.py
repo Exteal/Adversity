@@ -2,6 +2,9 @@ from PyQt5.QtCore import pyqtSignal, QObject
 from enum import StrEnum
 from PyQt5.QtWidgets import QLabel, QWidget, QVBoxLayout
 
+
+log_directory = "logs/"
+
 class NextPageEmitter(QObject):
     custom_signal = pyqtSignal()
 

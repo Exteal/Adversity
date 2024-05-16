@@ -6,6 +6,8 @@ from menu import Menu
 from terminal import Terminal
 from questionnaire import QuestionnaireWidget
 from time import perf_counter as pc
+from Utils import log_directory
+
 import csv
 
 class interfaceFinishedEmitter(QObject):
@@ -184,8 +186,8 @@ class InterfaceRecommandation(QMainWindow):
         self.log_file.close()
         
 def interface_init(block_name):
-    file =  open("log_recommandations_" + block_name +".csv", "w", newline='')
-    quest =  open("log_questionnaire_" + block_name +".csv", "w", newline='')
+    file =  open(log_directory + "log_recommandations_" + block_name +".csv", "w", newline='')
+    quest =  open(log_directory + "log_questionnaire_" + block_name +".csv", "w", newline='')
 
     interface = InterfaceRecommandation(file, quest)    
     return interface

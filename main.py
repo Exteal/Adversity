@@ -4,14 +4,13 @@ from parameters import ParametersWindow, Types
 import sys
 from PyQt5.QtWidgets import *
 from recommandation import RecommandationWidget
-from interfaceBandit2 import InterfaceBandit
-import json
-from WaitScreen import WaitingScreen
+from interfaceBandit import InterfaceBandit
 
-
+from Utils import log_directory
+from os import makedirs, path
 
 def choose_directory():
-    dial = QFileDialog()
+    dial = QFileDialog(caption="Sélectionnez le dossier contenant les fichiers utilisateurs .json")
     dial.setFileMode(QFileDialog.Directory)
     dial.setAcceptMode(QFileDialog.AcceptOpen)
     path = None
@@ -23,9 +22,7 @@ def choose_directory():
 
 
 def nextStack(stack):
-    print("current = ", stack.currentIndex())
     stack.setCurrentIndex(stack.currentIndex() + 1)
-    print("page ", stack.currentIndex())
 
 def load_pages(block_infos, stack, parameters):
     for block in reversed(block_infos):
@@ -57,12 +54,15 @@ def load_pages(block_infos, stack, parameters):
 
 def main():
     app = QApplication(sys.argv)
-   
-    
+    app.setApplicationName("Choix du participant")
+
+    makedirs(path.dirname(log_directory), exist_ok=True)
     recommandations_path = choose_directory()
     
     if recommandations_path == None:
         sys.exit()
+
+    
 
     parameters = ParametersWindow(recommandations_path)
     stack = QStackedWidget()
@@ -79,29 +79,6 @@ def main():
     stack.setCurrentIndex(0)
     stack.showMaximized()
 
-
-    sys.exit(app.exec())
-
-
-
-def testBandit():
-    app = QApplication(sys.argv)
-   
-    params = 0
-
-    with open("recommandations/recommandation_bandit.json", "r") as file :
-        js = json.load(file)
-    
-    blocks = js["blocks"]
-
-    params = []
-    for block in blocks:
-        if block["block_type"] == "bandit":
-            params.append(block["block_content"]["bras"])
-
-
-    bandito = InterfaceBandit(params[0])
-    bandito.show()
 
     sys.exit(app.exec())
 

@@ -7,6 +7,7 @@ import os
 import glob
 from recommandation import Recommandation
 from Utils import Types
+from Styles import namesListStyle
 
 
 
@@ -129,26 +130,7 @@ class ParametersWindow(QMainWindow):
 
         names_widget = QListWidget()
 
-        names_widget.setStyleSheet("QListWidget"
-                                  "{"
-                                  "border : 2px solid black;"
-                                  "background : lightgreen;"
-                                  "}"
-                                  "QListWidget QScrollBar"
-                                  "{"
-                                  "background : lightblue;"
-                                  "}"
-                                  "QListView::item:selected"
-                                  "{"
-                                  "border : 2px solid black;"
-                                  "background : green;"
-                                  "}"
-                                  "QListView::item"
-                                  "{"
-                                  "border : 1px solid grey;"
-                                  "background : red;"
-                                  "}"
-                                  )
+        names_widget.setStyleSheet(namesListStyle)
 
 
         for name in names:
