@@ -62,7 +62,7 @@ class InterfaceRecommandation(QMainWindow):
         center_layout.addWidget(self.term)
         
         
-        # Ajoutez un bouton pour afficher le questionnaire
+        # Ajouter un bouton pour afficher le questionnaire
         questionnaire_button = QPushButton("Répondre au questionnaire")
         questionnaire_button.clicked.connect(self.showQuestionnaire)
         center_layout.addWidget(questionnaire_button)
@@ -168,18 +168,18 @@ class InterfaceRecommandation(QMainWindow):
 
 
     def showQuestionnaire(self):
-        # Créez une boîte de dialogue modale pour afficher le questionnaire
+        # Créer une boîte de dialogue modale pour afficher le questionnaire
         dialog = QDialog(self)
         dialog.setWindowTitle("Questionnaire")
         dialog.setModal(True)
 
-        # Créez le widget du questionnaire et ajoutez-le à la boîte de dialogue
+        # Créer le widget du questionnaire et ajouter à la boîte de dialogue
         questionnaire_widget = QuestionnaireWidget(self.log_quest)
         dialog_layout = QVBoxLayout()
         dialog_layout.addWidget(questionnaire_widget)
         dialog.setLayout(dialog_layout)
 
-        # Affichez la boîte de dialogue modale
+        # Afficher la boîte de dialogue modale
         dialog.exec_()
         
     def on_close_interface(self):
