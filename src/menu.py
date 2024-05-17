@@ -7,7 +7,7 @@ class Menu:
         self.menu_bar = interface.menuBar()
 
         # Charger les données JSON depuis le fichier
-        with open('commands.json', 'r') as json_file:
+        with open('src/commands.json', 'r') as json_file:
             data = json.load(json_file)
 
         # Créer le menu principal "Commands"
