@@ -206,4 +206,4 @@ class QuestionnaireWidgetBandit(QWidget):
            
         })
         self.log_quest.flush()
-        self.close()
+        self.parent().close()
