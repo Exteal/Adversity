@@ -8,7 +8,7 @@
                             {
                             "header" : "recommandation 1.1",
                             "body" : "Lire la doc",
-                            "timeout_seconds" : 1
+                            "timeout_seconds" : 5
                             } ,
                     
                             {

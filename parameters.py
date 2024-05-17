@@ -135,6 +135,9 @@ class ParametersWindow(QMainWindow):
         for name in names:
             it = QListWidgetItem(name, names_widget)
             it.setSizeHint(names_widget.sizeHint())
+            f = it.font()
+            f.setPointSize(20)
+            it.setFont(f)
         return names_widget
 
 

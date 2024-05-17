@@ -14,7 +14,7 @@ from PyQt5.QtCore import Qt
 
 # La valeur None fait aparaître le sélecteur de dossier à l'ouverture de l'application
 # Pour éviter cela, cette variable prednra la forme d'une chaîne de caractères menant vers le dossier contenant les fichiers utilisateur.  
-user_files_directory = "C:/Users/User/Documents/GitHub/Adversity/recommandations"
+user_files_directory = None
 
 # Le chemin vers le dossier qui contiendra les fichiers csv de log crées par l'application.
 log_directory = "logs/"

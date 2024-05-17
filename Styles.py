@@ -17,7 +17,6 @@ QPushButton:pressed {
 namesListStyle = """QListWidget
     {
     border : 2px solid black;
-    background : lightgreen;
     }
     QListWidget QScrollBar
     {
@@ -31,7 +30,10 @@ namesListStyle = """QListWidget
     QListView::item
     {
     border : 1px solid grey;
-    background : red;
+    background : rgba(255, 255, 0, 0.5);
+    }
+
+    
 }"""
 
 

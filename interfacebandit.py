@@ -141,7 +141,7 @@ class InterfaceBandit(QMainWindow):
 
 
             wait = WaitWidget()
-            wait.showFullScreen()
+            #wait.showFullScreen()
             wait.mouseReleaseEvent = self.onClickedEnd
 
             self.setCentralWidget(wait)
