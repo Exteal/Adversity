@@ -1,5 +1,5 @@
 from PyQt5.QtGui import QKeyEvent, QMouseEvent, QCursor
-from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QTextEdit, QSpacerItem, QSizePolicy, QDialog, QFileDialog, QPushButton
+from PyQt5.QtWidgets import QLabel, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QTextEdit, QSpacerItem, QSizePolicy, QDialog, QFileDialog, QPushButton
 from PyQt5.QtCore import QTimer, Qt, pyqtSignal, QObject
 
 from menu import Menu
@@ -7,7 +7,7 @@ from terminal import Terminal
 from questionnaire import QuestionnaireWidget
 from time import perf_counter as pc
 from Utils import log_directory
-
+from Styles import recommandationTitleStyle
 import csv
 
 class interfaceFinishedEmitter(QObject):
@@ -49,48 +49,56 @@ class InterfaceRecommandation(QMainWindow):
         # Créer un layout horizontal pour le widget principal
         main_layout = QHBoxLayout()
         # Créer un layout vertical pour le centre de l'interface
-        center_layout = QVBoxLayout()
-        
+        left_layout = QVBoxLayout()
+        right_layout = QVBoxLayout()
+
         # Créer un widget QTextEdit pour l'instruction donnée
         instruction_text = QTextEdit(self)
         instruction_text.setReadOnly(True)
         instruction_text.setText("Sélectionnez une option dans le menu déroulant")
-        center_layout.addWidget(instruction_text)
 
+        left_layout.addWidget(instruction_text)
+        
         
         self.term = Terminal()
-        center_layout.addWidget(self.term)
+        left_layout.addWidget(self.term)
         
         
         # Ajouter un bouton pour afficher le questionnaire
         questionnaire_button = QPushButton("Répondre au questionnaire")
         questionnaire_button.clicked.connect(self.showQuestionnaire)
-        center_layout.addWidget(questionnaire_button)
+        left_layout.addWidget(questionnaire_button)
         
         
         # Créer un layout horizontal pour le côté droit de l'interface
-        right_layout = QVBoxLayout()
+        
 
         # Créer un layout pour le fil de recommandations
-        recommendations_list = QVBoxLayout()
+      #  recommendations_list = QVBoxLayout()
     
       
-        recommendations_list.addWidget(self.recommandation_widget)
+     #   recommendations_list.addWidget(self.recommandation_widget)
 
-        spacing = QVBoxLayout()
-        spacing.addSpacerItem(QSpacerItem(10, 10, QSizePolicy.Policy.MinimumExpanding, QSizePolicy.Policy.MinimumExpanding))
+   #     spacing = QVBoxLayout()
+    #    spacing.addSpacerItem(QSpacerItem(10, 10, QSizePolicy.Policy.MinimumExpanding, QSizePolicy.Policy.MinimumExpanding))
         
         #recommendations_list.addSpacerItem(QSpacerItem(50, 50, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Minimum))
         
-        right_layout.addLayout(recommendations_list, 1)
-        right_layout.addLayout(spacing, 1)
+        #right_layout.addLayout(recommendations_list, 1)
+        right_layout.addSpacerItem(QSpacerItem(200, 200, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Minimum))
+        label = QLabel("Cliquez sur la recommandation pour afficher son contenu")
+        label.setStyleSheet(recommandationTitleStyle)
+        right_layout.addWidget(label, alignment=Qt.AlignmentFlag.AlignCenter)
+        right_layout.addWidget(self.recommandation_widget)
+        right_layout.addSpacerItem(QSpacerItem(200, 200, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Minimum))
+       # right_layout.addLayout(spacing, 1)
         
 
         # Ajouter les layouts
     
         #main_layout.addLayout(left_layout, 33)
-        main_layout.addLayout(center_layout)
-        main_layout.addLayout(right_layout)
+        main_layout.addLayout(left_layout, 50)
+        main_layout.addLayout(right_layout, 50)
 
         # Créer le widget central avec le layout principal
         central_widget.setLayout(main_layout)

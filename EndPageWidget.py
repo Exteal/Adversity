@@ -3,6 +3,7 @@ from Styles import endPageButtonStyle
 import sys
 
 
+
 class EndPageWidget(QMainWindow):
     def __init__(self, stack):
         super().__init__()

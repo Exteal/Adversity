@@ -3,18 +3,19 @@ from interface import interface_init
 from parameters import ParametersWindow, Types
 import sys
 from PyQt5.QtWidgets import *
+from PyQt5.QtGui import QFontDatabase
 from recommandation import RecommandationWidget
-from interfaceBandit import InterfaceBandit
+from interfacebandit import InterfaceBandit
 
-from Utils import log_directory, recommandations_directory
+from Utils import log_directory, user_files_directory
 from os import makedirs, path
 
 
 
 def choose_directory():
 
-    if recommandations_directory:
-        return recommandations_directory
+    if user_files_directory:
+        return user_files_directory
     
     dial = QFileDialog(caption="Sélectionnez le dossier contenant les fichiers utilisateurs .json")
     dial.setFileMode(QFileDialog.Directory)
@@ -25,7 +26,7 @@ def choose_directory():
 
 
 
-    return recom_path[0] if len(recom_path) else None
+    return recom_path[0] if recom_path else None
 
 
 
@@ -88,7 +89,11 @@ def main():
     stack.setCurrentIndex(0)
     stack.showMaximized()
 
-
+        
+    # fonts = QFontDatabase()
+    # names = fonts.families()
+    # print(names)
     sys.exit(app.exec())
+
 
 main()

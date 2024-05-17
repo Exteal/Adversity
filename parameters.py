@@ -131,10 +131,10 @@ class ParametersWindow(QMainWindow):
         names_widget = QListWidget()
 
         names_widget.setStyleSheet(namesListStyle)
-
-
+        #names_widget.setSizeAdjustPolicy(QListWidget.SizeAdjustPolicy.AdjustToContents)
         for name in names:
-            QListWidgetItem(name, names_widget)
+            it = QListWidgetItem(name, names_widget)
+            it.setSizeHint(names_widget.sizeHint())
         return names_widget
 
 

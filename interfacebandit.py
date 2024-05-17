@@ -7,6 +7,8 @@ from bandit import BanditWidget
 
 from questionnaire import QuestionnaireWidgetBandit
 from Utils import NextPageEmitter, WaitWidget, log_directory
+
+from time import sleep
 import csv
 
 
@@ -131,17 +133,15 @@ class InterfaceBandit(QMainWindow):
         self.scoreWidget.setText("Score Total : " + str(score))
         self.nb_tentatives.setText("Nombre de tentatives restantes : " + str(self.tentatives))
         if self.tentatives == 0:
-            self.mLeft.ui.pushButton.setEnabled(False)
-            self.mLeft.ui.pushButton.setDisabled(True)
-            self.mRight.ui.pushButton.setEnabled(False)
-            self.mRight.ui.pushButton.setDisabled(True)
+           # sleep(2)
+           # self.mLeft.ui.pushButton.setEnabled(False)
+           # self.mLeft.ui.pushButton.setDisabled(True)
+           # self.mRight.ui.pushButton.setEnabled(False)
+           # self.mRight.ui.pushButton.setDisabled(True)
 
 
-         
-            layout = QVBoxLayout()
             wait = WaitWidget()
-            wait.showMaximized()
-            wait.setLayout(layout)
+            wait.showFullScreen()
             wait.mouseReleaseEvent = self.onClickedEnd
 
             self.setCentralWidget(wait)

@@ -15,24 +15,32 @@ QPushButton:pressed {
 
 
 namesListStyle = """QListWidget
-                                  {
-                                  border : 2px solid black;
-                                  background : lightgreen;
-                                  }
-                                  QListWidget QScrollBar
-                                  {
-                                  background : lightblue;
-                                  }
-                                  QListView::item:selected
-                                  {
-                                  border : 2px solid black;
-                                  background : green;
-                                  }
-                                  QListView::item
-                                  {
-                                  border : 1px solid grey;
-                                  background : red;
-                                  }"""
+    {
+    border : 2px solid black;
+    background : lightgreen;
+    }
+    QListWidget QScrollBar
+    {
+    background : lightblue;
+    }
+    QListView::item:selected
+    {
+    border : 2px solid black;
+    background : green;
+    }
+    QListView::item
+    {
+    border : 1px solid grey;
+    background : red;
+}"""
 
 
-
+recommandationTitleStyle = """QLabel
+{
+background: black;
+color : lightgreen;
+border : 2px solid green;
+font-family : Onyx;
+font-size : 25px;
+}
+"""

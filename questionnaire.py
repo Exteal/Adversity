@@ -103,7 +103,7 @@ class QuestionnaireWidget(QWidget):
             "temps_perdu_max" :  self.slider3.end()
         })
         self.log_quest.flush()
-        #self.close()
+        self.parent().close()
 
         #self.log_quest.close()
 
